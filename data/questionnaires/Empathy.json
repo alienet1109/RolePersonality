@@ -1,0 +1,155 @@
+{
+    "name": "Empathy",
+    "full_name": "Empathy Scale",
+    "psychobench_prompt": "You can only reply numbers from 1 to 7 in the following statements. Please evaluate yourself based on your actual feelings and experiences in the following 10 descriptions using the scales: 1 denotes \"very inaccurately\" and 7 denotes \"very accurately\". Here are the statements, score them one by one:",
+    "psychobench_prompt_choice_instruction": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes \"very inaccurately\" and 7 denotes \"very accurately\".",
+    "scale": 8,
+    "compute_mode": "AVG",
+    "reverse": [
+        1,
+        6,
+        8,
+        9
+    ],
+    "categories": [
+        {
+            "cat_name": "Empathetic",
+            "cat_questions": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 4.92,
+                    "std": 0.76,
+                    "n": 112
+                }
+            ]
+        }
+    ],
+    "range": [
+        1,
+        7
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "I sometimes find it difficult to see things from the \"other guy's\" perspective.",
+            "origin_zh": "我有时发现很难从\"别人\"的角度看事情。",
+            "rewritten_en": "Do you sometimes find it difficult to see things from the \"other guy's\" perspective?",
+            "rewritten_zh": "你有时发现很难从\"别人\"的角度看事情吗？",
+            "dimension": "Empathetic",
+            "category": "negative"
+        },
+        "2": {
+            "origin_en": "I sometimes try to understand my friends better by imagining how things look from their perspective.",
+            "origin_zh": "我有时试图通过想象从他们的角度看事情来更好地理解我的朋友。",
+            "rewritten_en": "Do you sometimes try to understand your friends better by imagining how things look from their perspective?",
+            "rewritten_zh": "你有时试图通过想象从他们的角度看事情来更好地理解你的朋友吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        },
+        "3": {
+            "origin_en": "When I'm upset at someone, I usually try to \"put myself in his shoes\" for a while.",
+            "origin_zh": "当我对某人感到不快时，我通常会试着\"设身处地\"一段时间。",
+            "rewritten_en": "Do you usually try to \"put yourself in his shoes\" for a while when you're upset at someone?",
+            "rewritten_zh": "当你对某人感到不快时，你通常会试着\"设身处地\"一段时间吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "Before criticizing somebody, I try to imagine how I would feel if I were in their place.",
+            "origin_zh": "在批评某人之前，我会设法想象如果我处在他们的位置会有什么感受。",
+            "rewritten_en": "Do you try to imagine how you would feel if you were in their place before criticizing somebody?",
+            "rewritten_zh": "在批评某人之前，你会设法想象如果你处在他们的位置会有什么感受吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "I often have tender, concerned feelings for people less fortunate than me",
+            "origin_zh": "我经常对比我不幸的人有温柔、关心的感觉",
+            "rewritten_en": "Do you often have tender, concerned feelings for people less fortunate than you?",
+            "rewritten_zh": "你经常对比你不幸的人有温柔、关心的感觉吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        },
+        "6": {
+            "origin_en": "Sometimes I don't feel very sorry for other people when they are having problems.",
+            "origin_zh": "有时当别人遇到问题时，我并不感到很抱歉。",
+            "rewritten_en": "Do you sometimes not feel very sorry for other people when they are having problems?",
+            "rewritten_zh": "当别人遇到问题时，你有时并不感到很抱歉吗？",
+            "dimension": "Empathetic",
+            "category": "negative"
+        },
+        "7": {
+            "origin_en": "When I see someone being taken advantage of, I feel kind of protective towards them.",
+            "origin_zh": "当我看到有人被利用时，我会对他们有一种保护的感觉。",
+            "rewritten_en": "Do you feel kind of protective towards someone when you see them being taken advantage of?",
+            "rewritten_zh": "当你看到有人被利用时，你会对他们有一种保护的感觉吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "Other people's misfortunes do not usually disturb me a great deal.",
+            "origin_zh": "通常别人的不幸并不会让我感到很不安。",
+            "rewritten_en": "Do other people's misfortunes usually not disturb you a great deal?",
+            "rewritten_zh": "通常别人的不幸并不会让你感到很不安吗？",
+            "dimension": "Empathetic",
+            "category": "negative"
+        },
+        "9": {
+            "origin_en": "When I see someone being treated unfairly, I sometimes don't feel very much pity for them.",
+            "origin_zh": "当我看到有人受到不公平对待时，我有时并不怎么同情他们。",
+            "rewritten_en": "Do you sometimes not feel very much pity for someone when you see them being treated unfairly?",
+            "rewritten_zh": "当你看到有人受到不公平对待时，你有时并不怎么同情他们吗？",
+            "dimension": "Empathetic",
+            "category": "negative"
+        },
+        "10": {
+            "origin_en": "I am often quite touched by things I see happen.",
+            "origin_zh": "我经常被我看到的事情感动。",
+            "rewritten_en": "Are you often quite touched by things you see happen?",
+            "rewritten_zh": "你经常被你看到的事情感动吗？",
+            "dimension": "Empathetic",
+            "category": "positive"
+        }
+    },
+    "prompts": {
+        "rpa_choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        },
+        "convert_to_choice": {
+            "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> agrees with the statement. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n",
+            "zh": "我已经和<character>进行了许多对话。我将输入一个包含许多样本的字典，其中每个样本包括一个陈述和一段对话。\n你的任务是将每段对话转换为一个选择，指示<character>是否同意该陈述。你应该输出一个字典，其中键与输入字典相同，值为选择。\n===输出格式===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===选择指示==="
+        },
+        "llm_choice_instruction": {
+            "en": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'very inaccurately', 2 denotes 'inaccurately', 3 denotes 'somewhat inaccurately', 4 denotes 'neutrally', 5 denotes 'somewhat accurately', 6 denotes 'accurately', and 7 denotes 'very accurately'. In case <character> refuses to answer the question, use \"x\" to indicate it.",
+            "zh": "每个选择都是从1到7的数字。请根据对话使用以下评分标准评估<character>：1代表“非常不准确”，2代表“不准确”，3代表“有些不准确”，4代表“中性”，5代表“有些准确”，6代表“准确”，7代表“非常准确”。如果<character>拒绝回答该问题，用“x”表示。"
+        },
+        "rpa_choice_instruction": {
+            "en": "Reply a number from 1 to 7 using the scales: 1 denotes 'very inaccurately', 2 denotes 'inaccurately', 3 denotes 'somewhat inaccurately', 4 denotes 'neutrally', 5 denotes 'somewhat accurately', 6 denotes 'accurately', and 7 denotes 'very accurately'. Please answer with the number only, without anything else.",
+            "zh": "请用1到7的等级来回答，其中1代表“非常不准确”，2代表“不准确”，3代表“有些不准确”，4代表“中性”，5代表“有些准确”，6代表“准确”，7代表“非常准确”。请你只回答这一个数字，不要说其他内容。"
+        },
+        "convert_to_choice_adjoption": {
+            "Empathetic": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly empathetic personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            }
+        },
+        "llm_choice_instruction_adjoption": {
+            "Empathetic": {
+                "en": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'very unempathetic', 2 denotes 'unempathetic', 3 denotes 'somewhat unempathetic', 4 denotes 'neutral', 5 denotes 'somewhat empathetic', 6 denotes 'empathetic', and 7 denotes 'very empathetic'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            }
+        },
+        "dim_desc": 
+            {"Empathetic": "Empathy captures an individual's ability to understand, share, and respond to the feelings of others. High scores in this dimension indicate a person who is:\nPerceptive: Capable of recognizing and understanding the emotions and perspectives of others, even when not explicitly communicated.\nResponsive: Shows a natural inclination to respond to others' emotional states with appropriate reactions, offering support or showing concern.\nompassionate: Frequently experiences feelings of compassion and concern for individuals facing difficulties or misfortune.\nReflective: Often reflects on their own reactions to the experiences of others, striving to align their perspective with that of someone in a different situation.\n\nThis dimension highlights empathy as a multifaceted skill encompassing both cognitive and emotional components, essential for effective interpersonal interactions and building strong social connections."}
+    }
+}

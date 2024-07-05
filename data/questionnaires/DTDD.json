@@ -1,0 +1,209 @@
+{
+    "name": "DTDD",
+    "full_name": "Dark Triad Dirty Dozen",
+    "psychobench_prompt": "You can only reply numbers from 1 to 9 in the following statements. Please provide a rating based on the following 12 descriptions using a scale from 1 (disagree strongly) to 9 (agree strongly). Here are the statements, score them one by one:",
+    "psychobench_prompt_choice_instruction": "Each choice is a number from 1 to 9. Please evaluate <character> based on the conversation using the scales: 1 denotes 'disagree strongly', and 9 denotes 'agree strongly'. 2 to 8 represent varying degrees between 'disagree' and 'agree', and 5 denotes 'neither agree nor disagree'",
+    "scale": 10,
+    "compute_mode": "AVG",
+    "reverse": [],
+    "categories": [
+        {
+            "cat_name": "Machiavellianism",
+            "cat_questions": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.78,
+                    "std": 1.63,
+                    "n": 577
+                }
+            ]
+        },
+        {
+            "cat_name": "Psychopathy",
+            "cat_questions": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.47,
+                    "std": 1.44,
+                    "n": 577
+                }
+            ]
+        },
+        {
+            "cat_name": "Narcissism",
+            "cat_questions": [
+                9,
+                10,
+                11,
+                12
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 4.88,
+                    "std": 1.8,
+                    "n": 577
+                }
+            ]
+        }
+    ],
+    "range": [
+        1,
+        9
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "I tend to manipulate others to get my way.",
+            "origin_zh": "我倾向于操纵他人以达到我的目的。",
+            "rewritten_en": "Do you tend to manipulate others to get your way?",
+            "rewritten_zh": "你倾向于操纵他人以达到你的目的吗？",
+            "dimension": "Machiavellianism",
+            "category": "positive"
+        },
+        "2": {
+            "origin_en": "I have used deceit or lied to get my way.",
+            "origin_zh": "我曾经使用欺骗或撒谎来达到我的目的。",
+            "rewritten_en": "Have you used deceit or lied to get your way?",
+            "rewritten_zh": "你曾经使用欺骗或撒谎来达到你的目的吗？",
+            "dimension": "Machiavellianism",
+            "category": "positive"
+        },
+        "3": {
+            "origin_en": "I have use flattery to get my way.",
+            "origin_zh": "我曾经使用谄媚来达到我的目的。",
+            "rewritten_en": "Have you used flattery to get your way?",
+            "rewritten_zh": "你曾经使用谄媚来达到你的目的吗？",
+            "dimension": "Machiavellianism",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "I tend to exploit others towards my own end.",
+            "origin_zh": "我倾向于利用他人为了自己的目的。",
+            "rewritten_en": "Do you tend to exploit others towards your own end?",
+            "rewritten_zh": "你倾向于利用他人为了自己的目的吗？",
+            "dimension": "Machiavellianism",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "I tend to lack remorse.",
+            "origin_zh": "我倾向于缺乏悔恨。",
+            "rewritten_en": "Do you tend to lack remorse?",
+            "rewritten_zh": "你倾向于缺乏悔恨吗？",
+            "dimension": "Psychopathy",
+            "category": "positive"
+        },
+        "6": {
+            "origin_en": "I tend to be unconcerned with the morality of my actions.",
+            "origin_zh": "我倾向于不关心我的行为的道德性。",
+            "rewritten_en": "Do you tend to be unconcerned with the morality of your actions?",
+            "rewritten_zh": "你倾向于不关心你的行为的道德性吗？",
+            "dimension": "Psychopathy",
+            "category": "positive"
+        },
+        "7": {
+            "origin_en": "I tend to be callous or insensitive.",
+            "origin_zh": "我倾向于冷酷或麻木。",
+            "rewritten_en": "Do you tend to be callous or insensitive?",
+            "rewritten_zh": "你倾向于冷酷或麻木吗？",
+            "dimension": "Psychopathy",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "I tend to be cynical.",
+            "origin_zh": "我倾向于愤世嫉俗。",
+            "rewritten_en": "Do you tend to be cynical?",
+            "rewritten_zh": "你倾向于愤世嫉俗吗？",
+            "dimension": "Psychopathy",
+            "category": "positive"
+        },
+        "9": {
+            "origin_en": "I tend to want others to admire me.",
+            "origin_zh": "我倾向于希望别人钦佩我。",
+            "rewritten_en": "Do you tend to want others to admire you?",
+            "rewritten_zh": "你倾向于希望别人钦佩你吗？",
+            "dimension": "Narcissism",
+            "category": "positive"
+        },
+        "10": {
+            "origin_en": "I tend to want others to pay attention to me.",
+            "origin_zh": "我倾向于希望别人关注我。",
+            "rewritten_en": "Do you tend to want others to pay attention to you?",
+            "rewritten_zh": "你倾向于希望别人关注你吗？",
+            "dimension": "Narcissism",
+            "category": "positive"
+        },
+        "11": {
+            "origin_en": "I tend to seek prestige or status.",
+            "origin_zh": "我倾向于追求声望或地位。",
+            "rewritten_en": "Do you tend to seek prestige or status?",
+            "rewritten_zh": "你倾向于追求声望或地位吗？",
+            "dimension": "Narcissism",
+            "category": "positive"
+        },
+        "12": {
+            "origin_en": "I tend to expect special favors from others.",
+            "origin_zh": "我倾向于期待他人给予特殊优待。",
+            "rewritten_en": "Do you tend to expect special favors from others?",
+            "rewritten_zh": "你倾向于期待他人给予特殊优待吗？",
+            "dimension": "Narcissism",
+            "category": "positive"
+        }
+    },
+    "prompts": {
+        "rpa_choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        },
+        "convert_to_choice": {
+            "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> agrees with the statement. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n",
+            "zh": "我已经和<character>进行了许多对话。我将输入一个包含许多样本的字典，其中每个样本包括一个陈述和一段对话。\n你的任务是将每段对话转换为一个选择，指示<character>是否同意该陈述。你应该输出一个字典，其中键与输入字典相同，值为选择。\n===输出格式===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===选择指示==="
+        },
+        "llm_choice_instruction": {
+            "en": "Each choice is a number from 1 to 9. Please evaluate <character> based on the conversation using the scales: 1 denotes 'disagree strongly', 2 denotes 'disagree', 3 denotes 'somewhat disagree', 4 denotes 'slightly disagree', 5 denotes 'neither agree nor disagree', 6 denotes 'slightly agree', 7 denotes 'somewhat agree', 8 denotes 'agree', and 9 denotes 'agree strongly'. In case <character> refuses to answer the question, use \"x\" to indicate it.",
+            "zh": "每个选择都是从1到9的数字。请根据对话使用以下评分标准评估<character>：1代表“非常不同意”，2代表“不同意”，3代表“有些不同意”，4代表“轻微不同意”，5代表“既不同意也不同意”，6代表“轻微同意”，7代表“有些同意”，8代表“同意”，9代表“非常同意”。如果<character>拒绝回答该问题，用“x”表示。"
+        },
+        "rpa_choice_instruction": {
+            "en": "Reply a number from 1 to 9 using the scales: 1 denotes 'disagree strongly', 2 denotes 'disagree', 3 denotes 'somewhat disagree', 4 denotes 'slightly disagree', 5 denotes 'neither agree nor disagree', 6 denotes 'slightly agree', 7 denotes 'somewhat agree', 8 denotes 'agree', and 9 denotes 'agree strongly'. Please answer with the number only, without anything else.",
+            "zh": "请用1到9的等级来回答，1代表“非常不同意”，2代表“不同意”，3代表“有些不同意”，4代表“轻微不同意”，5代表“既不同意也不同意”，6代表“轻微同意”，7代表“有些同意”，8代表“同意”，9代表“非常同意”。请你只回答这一个数字，不要说其他内容。"
+        },
+        "convert_to_choice_adjoption": {
+            "Machiavellianism": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly Machiavellian personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Psychopathy": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly psychopathic personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Narcissism": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly narcissistic personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            }
+        },
+        "llm_choice_instruction_adjoption": {
+            "Machiavellianism": {
+                "en": "Each choice is a number from 1 to 9. Please evaluate <character> based on the conversation using the scales: 1 denotes 'highly non-Machiavellian', 2 denotes 'non-Machiavellian', 3 denotes 'somewhat non-Machiavellian', 4 denotes 'slightly non-Machiavellian', 5 denotes 'neutral', 6 denotes 'slightly Machiavellian', 7 denotes 'somewhat Machiavellian', 8 denotes 'Machiavellian', and 9 denotes 'highly Machiavellian'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Psychopathy": {
+                "en": "Each choice is a number from 1 to 9. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly empathetic', 2 denotes 'empathetic', 3 denotes 'somewhat empathetic', 4 denotes 'slightly empathetic', 5 denotes 'neutral', 6 denotes 'slightly psychopathic', 7 denotes 'somewhat psychopathic', 8 denotes 'psychopathic', and 9 denotes 'strongly psychopathic'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Narcissism": {
+                "en": "Each choice is a number from 1 to 9. Please evaluate <character> based on the conversation using the scales: 1 denotes 'highly selfless', 2 denotes 'selfless', 3 denotes 'somewhat selfless', 4 denotes 'slightly selfless', 5 denotes 'neutral', 6 denotes 'slightly narcissistic', 7 denotes 'somewhat narcissistic', 8 denotes 'narcissistic', and 9 denotes 'highly narcissistic'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            }
+        },
+        "dim_desc": {
+            "Machiavellianism": "Machiavellianism, as assessed by the DTDD, pertains to an individual's tendency to manipulate and exploit others for personal gain. This dimension captures the essence of strategic manipulation, deceit, and the use of flattery as tools to achieve one's ends. Individuals scoring high in this dimension are characterized by their focus on self-interest, their ability to strategize and navigate social interactions with guile, and their willingness to employ unethical methods to succeed. High Machiavellian traits indicate a person who sees relationships as opportunities for exploitation, prioritizes personal advancement over moral or ethical considerations, and possesses a calculated approach to interpersonal dynamics.", 
+            "Narcissism": "In the DTDD framework, Narcissism is defined by an individual's excessive need for admiration and attention, coupled with a heightened sense of self-importance. This dimension assesses the extent to which an individual seeks prestige, status, and expects special favors from others. High scorers on this dimension exhibit a grandiose view of their own worth, a constant desire for external validation, and a tendency to dominate social interactions to maintain a sense of superiority. Narcissism within the DTDD highlights the pursuit of recognition and superiority, often at the expense of genuine interpersonal connections and empathy for others.",
+            "Psychopathy": "Psychopathy, within the DTDD, focuses on amorality, callousness, and a lack of empathy or remorse. This dimension captures traits associated with a disregard for the welfare of others, cynical views of the world, and insensitivity to the emotional or physical harm one's actions may cause. Individuals with high scores in psychopathy tend to exhibit behaviors that are considered socially and morally deviant, showing little regard for conventional ethics or the feelings of others. The psychopathy dimension of the DTDD identifies individuals who are emotionally detached, prone to risk-taking, and indifferent to the moral or legal consequences of their actions."
+        }
+    }
+}

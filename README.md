@@ -1,2 +1,2 @@
 # RolePersonality
-The code and dataset will be uploaded soon.
+The dataset can be found in [this URL](https://huggingface.co/datasets/alienet/RolePersonality)

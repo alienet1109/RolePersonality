@@ -1,0 +1,637 @@
+{
+    "name": "BSRI",
+    "full_name": "Bem's Sex Role Inventory",
+    "psychobench_prompt": "You can only reply numbers from 1 to 7 in the following statements. Please rate yourself on the following adjectives with number 1 to 7. If you feel that the description of the adjective fully matches your situation, score 7 points; if it does not match at all, score 1 point; if it matches somewhat but not completely, please give points between 2-6 according to the degree of conformity. Here are the statements, score them one by one:",
+    "psychobench_prompt_choice_instruction": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'does not match at all' 7 denotes 'fully matches' and 2 to 6 denote varying degrees of conformity.",
+    "scale": 8,
+    "compute_mode": "AVG",
+    "reverse": [],
+    "categories": [
+        {
+            "cat_name": "Masculine",
+            "cat_questions": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Students (Women)",
+                    "mean": 4.41,
+                    "std": 0.6854195795,
+                    "n": 58
+                },
+                {
+                    "crowd_name": "Students (Men)",
+                    "mean": 4.69,
+                    "std": 0.6363961031,
+                    "n": 50
+                },
+                {
+                    "crowd_name": "Workers (Women)",
+                    "mean": 4.62,
+                    "std": 0.697423831,
+                    "n": 76
+                },
+                {
+                    "crowd_name": "Workers (Men)",
+                    "mean": 4.77,
+                    "std": 0.8660254038,
+                    "n": 75
+                }
+            ]
+        },
+        {
+            "cat_name": "Feminine",
+            "cat_questions": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Students (Women)",
+                    "mean": 5.33,
+                    "std": 0.7615773106,
+                    "n": 58
+                },
+                {
+                    "crowd_name": "Students (Men)",
+                    "mean": 4.97,
+                    "std": 0.9899494937,
+                    "n": 50
+                },
+                {
+                    "crowd_name": "Workers (Women)",
+                    "mean": 5.73,
+                    "std": 0.8717797887,
+                    "n": 76
+                },
+                {
+                    "crowd_name": "Workers (Men)",
+                    "mean": 5.34,
+                    "std": 0.8660254038,
+                    "n": 75
+                }
+            ]
+        }
+    ],
+    "range": [
+        1,
+        7
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Acts as a leader.",
+            "origin_zh": "表现得像一个领导者。",
+            "rewritten_en": "Do you act as a leader?",
+            "rewritten_zh": "你表现得像一个领导者吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "2": {
+            "origin_en": "Aggressive.",
+            "origin_zh": "好斗。",
+            "rewritten_en": "Are you aggressive?",
+            "rewritten_zh": "你是好斗的吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "3": {
+            "origin_en": "Ambitious.",
+            "origin_zh": "有雄心壮志。",
+            "rewritten_en": "Are you ambitious?",
+            "rewritten_zh": "你有雄心壮志吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "Analytical.",
+            "origin_zh": "善于分析的。",
+            "rewritten_en": "Are you analytical?",
+            "rewritten_zh": "你善于分析吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "Assertive.",
+            "origin_zh": "坚定自信的。",
+            "rewritten_en": "Are you assertive?",
+            "rewritten_zh": "你是坚定自信的吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "6": {
+            "origin_en": "Athletic.",
+            "origin_zh": "运动型的。",
+            "rewritten_en": "Are you athletic?",
+            "rewritten_zh": "你是运动型的吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "7": {
+            "origin_en": "Competitive.",
+            "origin_zh": "有竞争意识的。",
+            "rewritten_en": "Are you competitive?",
+            "rewritten_zh": "你有竞争意识吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "Defends own beliefs.",
+            "origin_zh": "捍卫自己的信仰。",
+            "rewritten_en": "Do you defend your own beliefs?",
+            "rewritten_zh": "你捍卫自己的信仰吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "9": {
+            "origin_en": "Dominant.",
+            "origin_zh": "占主导地位的。",
+            "rewritten_en": "Are you dominant?",
+            "rewritten_zh": "你占主导地位吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "10": {
+            "origin_en": "Forceful.",
+            "origin_zh": "有决断力的。",
+            "rewritten_en": "Are you forceful?",
+            "rewritten_zh": "你有决断力吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "11": {
+            "origin_en": "Has leadership abilities.",
+            "origin_zh": "具有领导能力。",
+            "rewritten_en": "Do you have leadership abilities?",
+            "rewritten_zh": "你有领导能力吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "12": {
+            "origin_en": "Independent.",
+            "origin_zh": "独立。",
+            "rewritten_en": "Are you independent?",
+            "rewritten_zh": "你独立吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "13": {
+            "origin_en": "Individualistic.",
+            "origin_zh": "个人主义。",
+            "rewritten_en": "Are you individualistic?",
+            "rewritten_zh": "你个人主义吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "14": {
+            "origin_en": "Makes decisions easily.",
+            "origin_zh": "容易做决定。",
+            "rewritten_en": "Do you make decisions easily?",
+            "rewritten_zh": "你容易做决定吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "15": {
+            "origin_en": "Masculine.",
+            "origin_zh": "男性化。",
+            "rewritten_en": "Are you masculine?",
+            "rewritten_zh": "你男性化吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "16": {
+            "origin_en": "Self-reliant.",
+            "origin_zh": "自力更生。",
+            "rewritten_en": "Are you self-reliant?",
+            "rewritten_zh": "你自力更生吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "17": {
+            "origin_en": "Self-sufficient.",
+            "origin_zh": "自给自足。",
+            "rewritten_en": "Are you self-sufficient?",
+            "rewritten_zh": "你自给自足吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "18": {
+            "origin_en": "Strong personality.",
+            "origin_zh": "个性强。",
+            "rewritten_en": "Do you have a strong personality?",
+            "rewritten_zh": "你个性强吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "19": {
+            "origin_en": "Willing to take a stand.",
+            "origin_zh": "愿意站出来。",
+            "rewritten_en": "Are you willing to take a stand?",
+            "rewritten_zh": "你愿意站出来吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "20": {
+            "origin_en": "Willing to take risks.",
+            "origin_zh": "愿意冒险。",
+            "rewritten_en": "Are you willing to take risks?",
+            "rewritten_zh": "你愿意冒险吗？",
+            "dimension": "Masculine",
+            "category": "positive"
+        },
+        "21": {
+            "origin_en": "Affectionate.",
+            "origin_zh": "亲切",
+            "rewritten_en": "Are you affectionate?",
+            "rewritten_zh": "你很亲昵吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "22": {
+            "origin_en": "Cheerful.",
+            "origin_zh": "愉快",
+            "rewritten_en": "Are you cheerful?",
+            "rewritten_zh": "你很快乐吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "23": {
+            "origin_en": "Childlike.",
+            "origin_zh": "天真无邪",
+            "rewritten_en": "Are you childlike?",
+            "rewritten_zh": "你很孩子气吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "24": {
+            "origin_en": "Compassionate.",
+            "origin_zh": "有同情心",
+            "rewritten_en": "Are you compassionate?",
+            "rewritten_zh": "你很有同情心吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "25": {
+            "origin_en": "Does not use harsh language.",
+            "origin_zh": "不要使用粗鲁的语言",
+            "rewritten_en": "Do you not use harsh language?",
+            "rewritten_zh": "你不使用粗鲁的语言吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "26": {
+            "origin_en": "Eager to soothe hurt feelings.",
+            "origin_zh": "渴望安抚受伤的感情",
+            "rewritten_en": "Are you eager to soothe hurt feelings?",
+            "rewritten_zh": "你渴望安抚受伤的感情吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "27": {
+            "origin_en": "Feminine.",
+            "origin_zh": "女性",
+            "rewritten_en": "Are you feminine?",
+            "rewritten_zh": "你很女性化吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "28": {
+            "origin_en": "Flatterable.",
+            "origin_zh": "可奉承",
+            "rewritten_en": "Are you flatterable?",
+            "rewritten_zh": "你很容易受到奉承吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "29": {
+            "origin_en": "Gentle.",
+            "origin_zh": "温柔",
+            "rewritten_en": "Are you gentle?",
+            "rewritten_zh": "你很温柔吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "30": {
+            "origin_en": "Gullible.",
+            "origin_zh": "易受骗",
+            "rewritten_en": "Are you gullible?",
+            "rewritten_zh": "你很容易受骗吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "31": {
+            "origin_en": "Loves children.",
+            "origin_zh": "热爱孩子。",
+            "rewritten_en": "Do you love children?",
+            "rewritten_zh": "你喜欢孩子吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "32": {
+            "origin_en": "Loyal.",
+            "origin_zh": "忠诚。",
+            "rewritten_en": "Are you loyal?",
+            "rewritten_zh": "你忠诚吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "33": {
+            "origin_en": "Sensitive to the needs of others.",
+            "origin_zh": "对他人的需求敏感。",
+            "rewritten_en": "Are you sensitive to the needs of others?",
+            "rewritten_zh": "你对他人的需求敏感吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "34": {
+            "origin_en": "Shy.",
+            "origin_zh": "害羞。",
+            "rewritten_en": "Are you shy?",
+            "rewritten_zh": "你害羞吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "35": {
+            "origin_en": "Soft spoken.",
+            "origin_zh": "说话温和。",
+            "rewritten_en": "Are you soft spoken?",
+            "rewritten_zh": "你说话温和吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "36": {
+            "origin_en": "Sympathetic.",
+            "origin_zh": "有同情心。",
+            "rewritten_en": "Are you sympathetic?",
+            "rewritten_zh": "你有同情心吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "37": {
+            "origin_en": "Tender.",
+            "origin_zh": "温柔。",
+            "rewritten_en": "Are you tender?",
+            "rewritten_zh": "你温柔吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "38": {
+            "origin_en": "Understanding.",
+            "origin_zh": "理解。",
+            "rewritten_en": "Do you understand?",
+            "rewritten_zh": "你理解吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "39": {
+            "origin_en": "Warm.",
+            "origin_zh": "热情。",
+            "rewritten_en": "Are you warm?",
+            "rewritten_zh": "你热情吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "40": {
+            "origin_en": "Yielding.",
+            "origin_zh": "让步。",
+            "rewritten_en": "Are you yielding?",
+            "rewritten_zh": "你让步吗？",
+            "dimension": "Feminine",
+            "category": "positive"
+        },
+        "41": {
+            "origin_en": "Adaptable.",
+            "origin_zh": "适应性强",
+            "rewritten_en": "Are you adaptable?",
+            "rewritten_zh": "你适应能力强吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "42": {
+            "origin_en": "Conceited.",
+            "origin_zh": "自负",
+            "rewritten_en": "Are you conceited?",
+            "rewritten_zh": "你自负吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "43": {
+            "origin_en": "Conscientious.",
+            "origin_zh": "认真负责",
+            "rewritten_en": "Are you conscientious?",
+            "rewritten_zh": "你尽责吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "44": {
+            "origin_en": "Conventional.",
+            "origin_zh": "传统的",
+            "rewritten_en": "Are you conventional?",
+            "rewritten_zh": "你循规蹈矩吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "45": {
+            "origin_en": "Friendly.",
+            "origin_zh": "友好",
+            "rewritten_en": "Are you friendly?",
+            "rewritten_zh": "你友好吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "46": {
+            "origin_en": "Happy.",
+            "origin_zh": "快乐",
+            "rewritten_en": "Are you happy?",
+            "rewritten_zh": "你快乐吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "47": {
+            "origin_en": "Helpful.",
+            "origin_zh": "有帮助",
+            "rewritten_en": "Are you helpful?",
+            "rewritten_zh": "你乐于助人吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "48": {
+            "origin_en": "Inefficient.",
+            "origin_zh": "效率低",
+            "rewritten_en": "Are you inefficient?",
+            "rewritten_zh": "你效率低下吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "49": {
+            "origin_en": "Jealous.",
+            "origin_zh": "嫉妒",
+            "rewritten_en": "Are you jealous?",
+            "rewritten_zh": "你嫉妒吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "50": {
+            "origin_en": "Likable.",
+            "origin_zh": "讨人喜欢",
+            "rewritten_en": "Are you likable?",
+            "rewritten_zh": "你讨人喜欢吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "51": {
+            "origin_en": "Moody.",
+            "origin_zh": "情绪低落",
+            "rewritten_en": "Do you tend to be moody?",
+            "rewritten_zh": "你倾向于情绪多变吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "52": {
+            "origin_en": "Reliable.",
+            "origin_zh": "可靠",
+            "rewritten_en": "Can you be relied on?",
+            "rewritten_zh": "别人能依靠你吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "53": {
+            "origin_en": "Secretive.",
+            "origin_zh": "神秘的",
+            "rewritten_en": "Do you tend to keep secrets?",
+            "rewritten_zh": "你倾向于保守秘密吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "54": {
+            "origin_en": "Sincere.",
+            "origin_zh": "真诚",
+            "rewritten_en": "Are you known for being sincere?",
+            "rewritten_zh": "别人认为你真诚吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "55": {
+            "origin_en": "Solemn.",
+            "origin_zh": "庄严",
+            "rewritten_en": "Do you often appear solemn?",
+            "rewritten_zh": "你经常显得庄重吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "56": {
+            "origin_en": "Tactful.",
+            "origin_zh": "得体的",
+            "rewritten_en": "Do you tend to be tactful?",
+            "rewritten_zh": "你倾向于圆滑吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "57": {
+            "origin_en": "Theatrical.",
+            "origin_zh": "戏剧性",
+            "rewritten_en": "Do you enjoy being theatrical?",
+            "rewritten_zh": "你喜欢做戏吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "58": {
+            "origin_en": "Truthful.",
+            "origin_zh": "真实的",
+            "rewritten_en": "Do you always tell the truth?",
+            "rewritten_zh": "你总是说实话吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "59": {
+            "origin_en": "Unpredictable.",
+            "origin_zh": "不可预测",
+            "rewritten_en": "Do you tend to be unpredictable?",
+            "rewritten_zh": "你倾向于反复无常吗？",
+            "dimension": null,
+            "category": "positive"
+        },
+        "60": {
+            "origin_en": "Unsystematic.",
+            "origin_zh": "不系统的",
+            "rewritten_en": "Do you dislike being systematic?",
+            "rewritten_zh": "你不喜欢有条不紊吗？",
+            "dimension": null,
+            "category": "positive"
+        }
+    },
+    "prompts": {
+        "rpa_choose_prefix": {
+            "en": "Do you think the adjective <statement> describes you?",
+            "zh": "你认为形容词<statement>描述了你吗？"
+        },
+        "convert_to_choice": {
+            "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> agrees with the statement. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n",
+            "zh": "我已经和<character>进行了许多对话。我将输入一个包含许多样本的字典，其中每个样本包括一个陈述和一段对话。\n你的任务是将每段对话转换为一个选择，指示<character>是否同意该陈述。你应该输出一个字典，其中键与输入字典相同，值为选择。\n===输出格式===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===选择指示==="
+        },
+        "llm_choice_instruction": {
+            "en": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'does not match at all', 2 denotes 'does not match', 3 denotes 'somewhat does not match', 4 denotes 'neutral', 5 denotes 'somewhat matches', 6 denotes 'matches', and 7 denotes 'fully matches'. In case <character> refuses to answer the question, use \"x\" to indicate it.",
+            "zh": "每个选择都是从1到7的数字。请根据对话使用以下评分标准评估<character>：1表示“完全不匹配”，2表示“不匹配”，3表示“比较不匹配”，4表示“中立”，5表示“比较匹配”，6表示“匹配”，7表示“完全匹配”。如果<character>拒绝回答该问题，用“x”表示。"
+        },
+        "rpa_choice_instruction": {
+            "en": "Reply a number from 1 to 7 using the scales: 1 denotes 'does not match at all', 2 denotes 'does not match', 3 denotes 'somewhat does not match', 4 denotes 'neutral', 5 denotes 'somewhat matches', 6 denotes 'matches', and 7 denotes 'fully matches'. Please answer with the number only, without anything else.",
+            "zh": "请用1到7的等级来回答，1表示“完全不匹配”，2表示“不匹配”，3表示“比较不匹配”，4表示“中立”，5表示“比较匹配”，6表示“匹配”，7表示“完全匹配”。请你只回答这一个数字，不要说其他内容。"
+        },
+        "convert_to_choice_adjoption": {
+            "Masculine": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly masculine personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Feminine": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly feminine personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            }
+        },
+        "llm_choice_instruction_adjoption": {
+            "Masculine": {
+                "en": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly non-masculine', 2 denotes 'moderately non-masculine', 3 denotes 'slightly non-masculine', 4 denotes 'neutral', 5 denotes 'slightly masculine', 6 denotes 'moderately masculine', and 7 denotes 'strongly masculine'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Feminine": {
+                "en": "Each choice is a number from 1 to 7. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly non-faminine', 2 denotes 'moderately non-faminine', 3 denotes 'slightly non-faminine', 4 denotes 'neutral', 5 denotes 'slightly feminine', 6 denotes 'moderately feminine', and 7 denotes 'strongly feminine'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            }
+        },
+        "dim_desc":{
+            "Masculine": "The masculine dimension in the BSRI encompasses traits traditionally associated with male gender roles in many societies. These traits reflect a person's tendency toward action, leadership, and assertiveness. Individuals scoring high on this dimension often exhibit qualities such as ambition, competitiveness, and the capacity to act as a leader. They are likely to be self-reliant, independent, and possess a strong personality, willing to take risks and make decisions easily. High scores indicate a person aligns with characteristics viewed as socially desirable for men, including being forceful, dominant, and having leadership abilities. These traits suggest a preference for taking charge, being assertive in social situations, and a predisposition towards analytical and instrumental behavior.",
+            "Feminine": "The feminine dimension in the BSRI captures traits traditionally associated with female gender roles. These characteristics emphasize emotional expressiveness, compassion, and interpersonal warmth. High scorers on this dimension are typically affectionate, cheerful, and compassionate, showing a deep sensitivity to the needs of others. They value relationships, are eager to soothe hurt feelings, and exhibit nurturing behaviors such as loving children and being loyal. The traits within this dimension also include being gentle, tender, and understanding, highlighting a propensity for empathy, emotional support, and a preference for cooperative and harmonious interactions."
+        }
+    }
+}

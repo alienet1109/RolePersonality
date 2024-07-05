@@ -1,0 +1,2337 @@
+{
+    "name": "CABIN",
+    "full_name": "Comprehensive Assessment of Basic Interests",
+    "psychobench_prompt": "You can only reply numbers from 1 to 5 in the following questions. The criteria for evaluation and assessment are as follows: 1 means 'Dislike', 2 means 'Slightly Dislike', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like', 5 means 'Like Very Much'. Please evaluate and assess the activity descriptions included in the following questions based on your own personal experience and perception. Here are the questions, score them one by one:",
+    "psychobench_prompt_choice_instruction": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike', 2 means 'Slightly Dislike', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like', 5 means 'Like Very Much'.",
+    "scale": 6,
+    "compute_mode": "AVG",
+    "reverse": [],
+    "categories": [
+        {
+            "cat_name": "Mechanics/Electronics",
+            "cat_questions": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.41,
+                    "std": 1.29,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Construction/WoodWork",
+            "cat_questions": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.1,
+                    "std": 1.29,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Transportation/Machine Operation",
+            "cat_questions": [
+                9,
+                10,
+                11,
+                12
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.49,
+                    "std": 1.23,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Physical/Manual Labor",
+            "cat_questions": [
+                13,
+                14,
+                15,
+                16
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.24,
+                    "std": 1.19,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Protective Service",
+            "cat_questions": [
+                17,
+                18,
+                19,
+                20
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.02,
+                    "std": 1.35,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Agriculture",
+            "cat_questions": [
+                21,
+                22,
+                23,
+                24
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.01,
+                    "std": 1.24,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Nature/Outdoors",
+            "cat_questions": [
+                25,
+                26,
+                27,
+                28
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.59,
+                    "std": 1.13,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Animal Service",
+            "cat_questions": [
+                29,
+                30,
+                31,
+                32
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.65,
+                    "std": 1.2,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Athletics",
+            "cat_questions": [
+                33,
+                34,
+                35,
+                36
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.26,
+                    "std": 1.28,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Engineering",
+            "cat_questions": [
+                37,
+                38,
+                39,
+                40
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.93,
+                    "std": 1.29,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Physical Science",
+            "cat_questions": [
+                41,
+                42,
+                43,
+                44
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.25,
+                    "std": 1.31,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Life Science",
+            "cat_questions": [
+                45,
+                46,
+                47,
+                48
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.03,
+                    "std": 1.23,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Medical Science",
+            "cat_questions": [
+                49,
+                50,
+                51,
+                52
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.31,
+                    "std": 1.3,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Social Science",
+            "cat_questions": [
+                53,
+                54,
+                55,
+                56
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.37,
+                    "std": 1.16,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Humanities",
+            "cat_questions": [
+                57,
+                58,
+                59,
+                60
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.33,
+                    "std": 1.2,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Mathematics/Statistics",
+            "cat_questions": [
+                61,
+                62,
+                63,
+                64
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.93,
+                    "std": 1.35,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Information Technology",
+            "cat_questions": [
+                65,
+                66,
+                67,
+                68
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.93,
+                    "std": 1.29,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Visual Arts",
+            "cat_questions": [
+                69,
+                70,
+                71,
+                72
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.32,
+                    "std": 1.26,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Applied Arts and Design",
+            "cat_questions": [
+                73,
+                74,
+                75,
+                76
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.16,
+                    "std": 1.22,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Performing Arts",
+            "cat_questions": [
+                77,
+                78,
+                79,
+                80
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.75,
+                    "std": 1.38,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Music",
+            "cat_questions": [
+                81,
+                82,
+                83,
+                84
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.16,
+                    "std": 1.29,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Writing",
+            "cat_questions": [
+                85,
+                86,
+                87,
+                88
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.19,
+                    "std": 1.27,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Media",
+            "cat_questions": [
+                89,
+                90,
+                91,
+                92
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.01,
+                    "std": 1.24,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Culinary Art",
+            "cat_questions": [
+                93,
+                94,
+                95,
+                96
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.82,
+                    "std": 1.08,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Teaching/Education",
+            "cat_questions": [
+                97,
+                98,
+                99,
+                100
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.74,
+                    "std": 1.07,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Social Service",
+            "cat_questions": [
+                101,
+                102,
+                103,
+                104
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.87,
+                    "std": 0.96,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Health Care Service",
+            "cat_questions": [
+                105,
+                106,
+                107,
+                108
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.88,
+                    "std": 1.33,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Religious Activities",
+            "cat_questions": [
+                109,
+                110,
+                111,
+                112
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.65,
+                    "std": 1.35,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Personal Service",
+            "cat_questions": [
+                113,
+                114,
+                115,
+                116
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.32,
+                    "std": 1.2,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Professional Advising",
+            "cat_questions": [
+                117,
+                118,
+                119,
+                120
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.3,
+                    "std": 1.24,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Business Initiatives",
+            "cat_questions": [
+                121,
+                122,
+                123,
+                124
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.17,
+                    "std": 1.25,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Sales",
+            "cat_questions": [
+                125,
+                126,
+                127,
+                128
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.07,
+                    "std": 1.25,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Marketing/Advertising",
+            "cat_questions": [
+                129,
+                130,
+                131,
+                132
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.87,
+                    "std": 1.23,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Finance",
+            "cat_questions": [
+                133,
+                134,
+                135,
+                136
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.07,
+                    "std": 1.32,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Accounting",
+            "cat_questions": [
+                137,
+                138,
+                139,
+                140
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3,
+                    "std": 1.27,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Human Resources",
+            "cat_questions": [
+                141,
+                142,
+                143,
+                144
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.27,
+                    "std": 1.2,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Office Work",
+            "cat_questions": [
+                145,
+                146,
+                147,
+                148
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.27,
+                    "std": 1.14,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Management/Administration",
+            "cat_questions": [
+                149,
+                150,
+                151,
+                152
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.05,
+                    "std": 1.27,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Public Speaking",
+            "cat_questions": [
+                153,
+                154,
+                155,
+                156
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.86,
+                    "std": 1.38,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Politics",
+            "cat_questions": [
+                157,
+                158,
+                159,
+                160
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 2.32,
+                    "std": 1.33,
+                    "n": 477
+                }
+            ]
+        },
+        {
+            "cat_name": "Law",
+            "cat_questions": [
+                161,
+                162,
+                163,
+                164
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.08,
+                    "std": 1.3,
+                    "n": 477
+                }
+            ]
+        }
+    ],
+    "range": [
+        1,
+        5
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Repair car engines.",
+            "origin_zh": "修理汽车发动机",
+            "rewritten_en": "Do you like to  repair car engines?",
+            "rewritten_zh": "你喜欢修理汽车发动机吗？",
+            "dimension": "Mechanics/Electronics",
+            "category": "positive"
+        },
+        "2": {
+            "origin_en": "Perform aircraft maintenance.",
+            "origin_zh": "进行飞机维护",
+            "rewritten_en": "Do you like to  perform aircraft maintenance?",
+            "rewritten_zh": "你喜欢进行飞机维护吗？",
+            "dimension": "Mechanics/Electronics",
+            "category": "positive"
+        },
+        "3": {
+            "origin_en": "Maintain wind turbine generators.",
+            "origin_zh": "维护风力发电机",
+            "rewritten_en": "Do you like to  maintain wind turbine generators?",
+            "rewritten_zh": "你喜欢维护风力发电机吗？",
+            "dimension": "Mechanics/Electronics",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "Install radio communication systems.",
+            "origin_zh": "安装无线电通信系统",
+            "rewritten_en": "Do you like to  install radio communication systems?",
+            "rewritten_zh": "你喜欢安装无线电通信系统吗？",
+            "dimension": "Mechanics/Electronics",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "Build wood wall shelves.",
+            "origin_zh": "制作木质墙架",
+            "rewritten_en": "Do you like to  build wood wall shelves?",
+            "rewritten_zh": "你喜欢制作木质墙架吗？",
+            "dimension": "Construction/WoodWork",
+            "category": "positive"
+        },
+        "6": {
+            "origin_en": "Build kitchen cabinets.",
+            "origin_zh": "制作厨房橱柜",
+            "rewritten_en": "Do you like to  build kitchen cabinets?",
+            "rewritten_zh": "你喜欢制作厨房橱柜吗？",
+            "dimension": "Construction/WoodWork",
+            "category": "positive"
+        },
+        "7": {
+            "origin_en": "Sand and refinish a piece of furniture.",
+            "origin_zh": "打磨和重新涂漆一件家具",
+            "rewritten_en": "Do you like to  sand and refinish a piece of furniture?",
+            "rewritten_zh": "你喜欢打磨和重新涂漆一件家具吗？",
+            "dimension": "Construction/WoodWork",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "Build a fence.",
+            "origin_zh": "建一道围墙",
+            "rewritten_en": "Do you like to  build a fence?",
+            "rewritten_zh": "你喜欢建一道围墙吗？",
+            "dimension": "Construction/WoodWork",
+            "category": "positive"
+        },
+        "9": {
+            "origin_en": "Drive a bus.",
+            "origin_zh": "开公交车",
+            "rewritten_en": "Do you like to  drive a bus?",
+            "rewritten_zh": "你喜欢开公交车吗？",
+            "dimension": "Transportation/Machine Operation",
+            "category": "positive"
+        },
+        "10": {
+            "origin_en": "Drive a delivery truck.",
+            "origin_zh": "驾驶送货卡车",
+            "rewritten_en": "Do you like to  drive a delivery truck?",
+            "rewritten_zh": "你喜欢驾驶送货卡车吗？",
+            "dimension": "Transportation/Machine Operation",
+            "category": "positive"
+        },
+        "11": {
+            "origin_en": "Operate a train.",
+            "origin_zh": "操作火车。",
+            "rewritten_en": "Do you like to  operate a train?",
+            "rewritten_zh": "你喜欢操作火车吗？",
+            "dimension": "Transportation/Machine Operation",
+            "category": "positive"
+        },
+        "12": {
+            "origin_en": "Operate a crane to move freight and cargo.",
+            "origin_zh": "操作起重机移动货物和货物。",
+            "rewritten_en": "Do you like to  operate a crane to move freight and cargo?",
+            "rewritten_zh": "你喜欢操作起重机来移动货物和货物吗？",
+            "dimension": "Transportation/Machine Operation",
+            "category": "positive"
+        },
+        "13": {
+            "origin_en": "Load and unload aircraft baggage.",
+            "origin_zh": "装卸飞机行李。",
+            "rewritten_en": "Do you like to  load and unload aircraft baggage?",
+            "rewritten_zh": "你喜欢装卸飞机行李吗？",
+            "dimension": "Physical/Manual Labor",
+            "category": "positive"
+        },
+        "14": {
+            "origin_en": "Load and unload cargo.",
+            "origin_zh": "装卸货物。",
+            "rewritten_en": "Do you like to  load and unload cargo?",
+            "rewritten_zh": "你喜欢装卸货物吗？",
+            "dimension": "Physical/Manual Labor",
+            "category": "positive"
+        },
+        "15": {
+            "origin_en": "Move building materials on construction sites.",
+            "origin_zh": "在建筑工地上移动建筑材料。",
+            "rewritten_en": "Do you like to  move building materials on construction sites?",
+            "rewritten_zh": "你喜欢在建筑工地上移动建筑材料吗？",
+            "dimension": "Physical/Manual Labor",
+            "category": "positive"
+        },
+        "16": {
+            "origin_en": "Pack and move products in a warehouse.",
+            "origin_zh": "在仓库里打包和移动产品。",
+            "rewritten_en": "Do you like to  pack and move products in a warehouse?",
+            "rewritten_zh": "你喜欢在仓库里打包和移动产品吗？",
+            "dimension": "Physical/Manual Labor",
+            "category": "positive"
+        },
+        "17": {
+            "origin_en": "Arrest suspects of criminal acts.",
+            "origin_zh": "逮捕犯罪嫌疑人。",
+            "rewritten_en": "Do you like to  arrest suspects of criminal acts?",
+            "rewritten_zh": "你喜欢逮捕犯罪嫌疑人吗？",
+            "dimension": "Protective Service",
+            "category": "positive"
+        },
+        "18": {
+            "origin_en": "Conduct surveillance of suspects.",
+            "origin_zh": "对嫌疑人进行监视。",
+            "rewritten_en": "Do you like to  conduct surveillance of suspects?",
+            "rewritten_zh": "你喜欢对嫌疑人进行监视吗？",
+            "dimension": "Protective Service",
+            "category": "positive"
+        },
+        "19": {
+            "origin_en": "Inspect people and vehicles for illegal goods.",
+            "origin_zh": "检查人员和车辆是否携带非法物品。",
+            "rewritten_en": "Do you like to  inspect people and vehicles for illegal goods?",
+            "rewritten_zh": "你喜欢检查人员和车辆是否携带非法物品吗？",
+            "dimension": "Protective Service",
+            "category": "positive"
+        },
+        "20": {
+            "origin_en": "Investigate reports of organized crime.",
+            "origin_zh": "调查有组织犯罪的报告。",
+            "rewritten_en": "Do you like to  investigate reports of organized crime?",
+            "rewritten_zh": "你喜欢调查有组织犯罪的报告吗？",
+            "dimension": "Protective Service",
+            "category": "positive"
+        },
+        "21": {
+            "origin_en": "Farm and harvest crops.",
+            "origin_zh": "种植和收获庄稼。",
+            "rewritten_en": "Do you like to  farm and harvest crops?",
+            "rewritten_zh": "你喜欢种植和收获庄稼吗？",
+            "dimension": "Agriculture",
+            "category": "positive"
+        },
+        "22": {
+            "origin_en": "Inspect orchards to detect diSEMses or pests.",
+            "origin_zh": "检查果园以检测疾病或害虫",
+            "rewritten_en": "Do you like to  inspect orchards to detect diseases or pests?",
+            "rewritten_zh": "你喜欢检查果园以发现疾病或害虫吗？",
+            "dimension": "Agriculture",
+            "category": "positive"
+        },
+        "23": {
+            "origin_en": "Learn about soil and climate requirements of various plants.",
+            "origin_zh": "了解各种植物的土壤和气候要求。",
+            "rewritten_en": "Do you like to  learn about soil and climate requirements of various plants?",
+            "rewritten_zh": "你喜欢了解各种植物的土壤和气候要求吗？",
+            "dimension": "Agriculture",
+            "category": "positive"
+        },
+        "24": {
+            "origin_en": "Apply principles of soil science to conserve land.",
+            "origin_zh": "应用土壤科学原理来保护土地。",
+            "rewritten_en": "Do you like to  apply principles of soil science to conserve land?",
+            "rewritten_zh": "你喜欢应用土壤科学原理来保护土地吗？",
+            "dimension": "Agriculture",
+            "category": "positive"
+        },
+        "25": {
+            "origin_en": "Water and fertilize garden plants.",
+            "origin_zh": "给花园植物浇水和施肥。",
+            "rewritten_en": "Do you like to  water and fertilize garden plants?",
+            "rewritten_zh": "你喜欢给花园植物浇水和施肥吗？",
+            "dimension": "Nature/Outdoors",
+            "category": "positive"
+        },
+        "26": {
+            "origin_en": "Survey forest areas and access roads.",
+            "origin_zh": "调查森林地区和通道道路。",
+            "rewritten_en": "Do you like to  survey forest areas and access roads?",
+            "rewritten_zh": "你喜欢调查森林地区和通道道路吗？",
+            "dimension": "Nature/Outdoors",
+            "category": "positive"
+        },
+        "27": {
+            "origin_en": "Plant trees in a nature preserve.",
+            "origin_zh": "在自然保护区种树。",
+            "rewritten_en": "Do you like to  plant trees in a nature preserve?",
+            "rewritten_zh": "你喜欢在自然保护区种树吗？",
+            "dimension": "Nature/Outdoors",
+            "category": "positive"
+        },
+        "28": {
+            "origin_en": "Work to restore a wildlife habitat.",
+            "origin_zh": "努力恢复野生动物栖息地。",
+            "rewritten_en": "Do you like to  work to restore a wildlife habitat?",
+            "rewritten_zh": "你喜欢努力恢复野生动物栖息地吗？",
+            "dimension": "Nature/Outdoors",
+            "category": "positive"
+        },
+        "29": {
+            "origin_en": "Treat and care for injured animals.",
+            "origin_zh": "治疗和照顾受伤的动物。",
+            "rewritten_en": "Do you like to  treat and care for injured animals?",
+            "rewritten_zh": "你喜欢治疗和照顾受伤的动物吗？",
+            "dimension": "Animal Service",
+            "category": "positive"
+        },
+        "30": {
+            "origin_en": "Feed and bathe animals in a zoo.",
+            "origin_zh": "在动物园里喂养和洗澡动物。",
+            "rewritten_en": "Do you like to  feed and bathe animals in a zoo?",
+            "rewritten_zh": "你喜欢在动物园里喂养和洗澡动物吗？",
+            "dimension": "Animal Service",
+            "category": "positive"
+        },
+        "31": {
+            "origin_en": "Exercise animals daily to keep them healthy.",
+            "origin_zh": "每天锻炼动物，保持它们健康。",
+            "rewritten_en": "Do you like to  exercise animals daily to keep them healthy?",
+            "rewritten_zh": "你喜欢每天锻炼动物，保持它们健康吗？",
+            "dimension": "Animal Service",
+            "category": "positive"
+        },
+        "32": {
+            "origin_en": "Find stray animals and take them to a shelter.",
+            "origin_zh": "找到流浪动物并把它们送到收容所。",
+            "rewritten_en": "Do you like to  find stray animals and take them to a shelter?",
+            "rewritten_zh": "你喜欢找到流浪动物并把它们送到收容所吗？",
+            "dimension": "Animal Service",
+            "category": "positive"
+        },
+        "33": {
+            "origin_en": "Play a team or individual sport.",
+            "origin_zh": "参加团队或个人运动。",
+            "rewritten_en": "Do you like to  play a team or individual sport?",
+            "rewritten_zh": "你喜欢参加团队或个人运动吗？",
+            "dimension": "Athletics",
+            "category": "positive"
+        },
+        "34": {
+            "origin_en": "Participate in athletic events.",
+            "origin_zh": "参加体育赛事。",
+            "rewritten_en": "Do you like to  participate in athletic events?",
+            "rewritten_zh": "你喜欢参加体育赛事吗？",
+            "dimension": "Athletics",
+            "category": "positive"
+        },
+        "35": {
+            "origin_en": "Train for a competitive sport.",
+            "origin_zh": "为竞技运动训练。",
+            "rewritten_en": "Do you like to  train for a competitive sport?",
+            "rewritten_zh": "你喜欢为竞技运动训练吗？",
+            "dimension": "Athletics",
+            "category": "positive"
+        },
+        "36": {
+            "origin_en": "Coach practice sessions for a sports team.",
+            "origin_zh": "指导运动队的练习课程。",
+            "rewritten_en": "Do you like to  coach practice sessions for a sports team?",
+            "rewritten_zh": "你喜欢指导运动队的练习课程吗？",
+            "dimension": "Athletics",
+            "category": "positive"
+        },
+        "37": {
+            "origin_en": "Design a structure that can withstand heavy wind.",
+            "origin_zh": "设计一个能够经受住强风的结构。",
+            "rewritten_en": "Do you like to  design a structure that can withstand heavy wind?",
+            "rewritten_zh": "你喜欢设计一个能够经受住强风的结构吗？",
+            "dimension": "Engineering",
+            "category": "positive"
+        },
+        "38": {
+            "origin_en": "Develop lighter and stronger materials for new products.",
+            "origin_zh": "为新产品开发更轻更坚固的材料。",
+            "rewritten_en": "Do you like to  develop lighter and stronger materials for new products?",
+            "rewritten_zh": "你喜欢为新产品开发更轻更坚固的材料吗？",
+            "dimension": "Engineering",
+            "category": "positive"
+        },
+        "39": {
+            "origin_en": "Redesign a production line to improve its efficiency.",
+            "origin_zh": "重新设计生产线以提高效率。",
+            "rewritten_en": "Do you like to  redesign a production line to improve its efficiency?",
+            "rewritten_zh": "你喜欢重新设计生产线以提高效率吗？",
+            "dimension": "Engineering",
+            "category": "positive"
+        },
+        "40": {
+            "origin_en": "Improve the human-machine interface of an operation system.",
+            "origin_zh": "改进操作系统的人机界面。",
+            "rewritten_en": "Do you like to  improve the human-machine interface of an operation system?",
+            "rewritten_zh": "你喜欢改进操作系统的人机界面吗？",
+            "dimension": "Engineering",
+            "category": "positive"
+        },
+        "41": {
+            "origin_en": "Study the formation and evolution of galaxies.",
+            "origin_zh": "研究星系的形成和演化。",
+            "rewritten_en": "Do you like to  study the formation and evolution of galaxies?",
+            "rewritten_zh": "你喜欢研究星系的形成和演化吗？",
+            "dimension": "Physical Science",
+            "category": "positive"
+        },
+        "42": {
+            "origin_en": "Analyze a mineral sample found on Mars.",
+            "origin_zh": "分析在火星上发现的矿物样本。",
+            "rewritten_en": "Do you like to  analyze a mineral sample found on Mars?",
+            "rewritten_zh": "你喜欢分析在火星上发现的矿物样本吗？",
+            "dimension": "Physical Science",
+            "category": "positive"
+        },
+        "43": {
+            "origin_en": "Investigate the molecular structure of an unknown substance.",
+            "origin_zh": "调查未知物质的分子结构。",
+            "rewritten_en": "Do you like to  investigate the molecular structure of an unknown substance?",
+            "rewritten_zh": "你喜欢调查未知物质的分子结构吗？",
+            "dimension": "Physical Science",
+            "category": "positive"
+        },
+        "44": {
+            "origin_en": "Study the causes for earthquakes and tsunamis.",
+            "origin_zh": "研究地震和海啸的原因。",
+            "rewritten_en": "Do you like to  study the causes for earthquakes and tsunamis?",
+            "rewritten_zh": "你喜欢研究地震和海啸的原因吗？",
+            "dimension": "Physical Science",
+            "category": "positive"
+        },
+        "45": {
+            "origin_en": "Map human gene structure.",
+            "origin_zh": "绘制人类基因结构图。",
+            "rewritten_en": "Do you like to  map human gene structure?",
+            "rewritten_zh": "你喜欢绘制人类基因结构图吗？",
+            "dimension": "Life Science",
+            "category": "positive"
+        },
+        "46": {
+            "origin_en": "Study the physiological structure of animals.",
+            "origin_zh": "研究动物的生理结构。",
+            "rewritten_en": "Do you like to  study the physiological structure of animals?",
+            "rewritten_zh": "你喜欢研究动物的生理结构吗？",
+            "dimension": "Life Science",
+            "category": "positive"
+        },
+        "47": {
+            "origin_en": "Investigate the genetic sequence of organisms.",
+            "origin_zh": "调查生物的遗传序列。",
+            "rewritten_en": "Do you like to  investigate the genetic sequence of organisms?",
+            "rewritten_zh": "你喜欢调查生物的遗传序列吗？",
+            "dimension": "Life Science",
+            "category": "positive"
+        },
+        "48": {
+            "origin_en": "ReSEMrch newly discovered bacteria with laboratory experiments.",
+            "origin_zh": "研究人员通过实验室实验新发现的细菌",
+            "rewritten_en": "Do you like to  research newly discovered bacteria with laboratory experiments?",
+            "rewritten_zh": "你喜欢用实验室实验研究新发现的细菌吗？",
+            "dimension": "Life Science",
+            "category": "positive"
+        },
+        "49": {
+            "origin_en": "Examine how viruses infect the human body.",
+            "origin_zh": "研究病毒如何感染人体。",
+            "rewritten_en": "Do you like to  examine how viruses infect the human body?",
+            "rewritten_zh": "你喜欢研究病毒如何感染人体吗？",
+            "dimension": "Medical Science",
+            "category": "positive"
+        },
+        "50": {
+            "origin_en": "Investigate the cause of a chronic health problem.",
+            "origin_zh": "调查慢性健康问题的原因。",
+            "rewritten_en": "Do you like to  investigate the cause of a chronic health problem?",
+            "rewritten_zh": "你喜欢调查慢性健康问题的原因吗？",
+            "dimension": "Medical Science",
+            "category": "positive"
+        },
+        "51": {
+            "origin_en": "ReSEMrch the side effects of a medicine.",
+            "origin_zh": "研究一下这种药物的副作用",
+            "rewritten_en": "Do you like to  research the side effects of a medicine?",
+            "rewritten_zh": "你喜欢研究药物的副作用吗？",
+            "dimension": "Medical Science",
+            "category": "positive"
+        },
+        "52": {
+            "origin_en": "Investigate prevention methods for diSEMses.",
+            "origin_zh": "调查预防疾病的方法",
+            "rewritten_en": "Do you like to  investigate prevention methods for diseases?",
+            "rewritten_zh": "你喜欢调查疾病的预防方法吗？",
+            "dimension": "Medical Science",
+            "category": "positive"
+        },
+        "53": {
+            "origin_en": "Study cultural differences between groups.",
+            "origin_zh": "研究不同群体之间的文化差异。",
+            "rewritten_en": "Do you like to  study cultural differences between groups?",
+            "rewritten_zh": "你喜欢研究不同群体之间的文化差异吗？",
+            "dimension": "Social Science",
+            "category": "positive"
+        },
+        "54": {
+            "origin_en": "Investigate how poverty influences educational attainment.",
+            "origin_zh": "调查贫困如何影响教育成就。",
+            "rewritten_en": "Do you like to  investigate how poverty influences educational attainment?",
+            "rewritten_zh": "你喜欢调查贫困如何影响教育成就吗？",
+            "dimension": "Social Science",
+            "category": "positive"
+        },
+        "55": {
+            "origin_en": "Study the effects of public policy on violence reduction.",
+            "origin_zh": "研究公共政策对暴力减少的影响。",
+            "rewritten_en": "Do you like to  study the effects of public policy on violence reduction?",
+            "rewritten_zh": "你喜欢研究公共政策对暴力减少的影响吗？",
+            "dimension": "Social Science",
+            "category": "positive"
+        },
+        "56": {
+            "origin_en": "ReSEMrch why people have stereotypes and prejudice.",
+            "origin_zh": "研究为什么人们会有刻板印象和偏见",
+            "rewritten_en": "Do you like to  research why people have stereotypes and prejudice?",
+            "rewritten_zh": "你喜欢研究人们为什么会有刻板印象和偏见吗？",
+            "dimension": "Social Science",
+            "category": "positive"
+        },
+        "57": {
+            "origin_en": "Study the history of an ancient society.",
+            "origin_zh": "研究一个古代社会的历史。",
+            "rewritten_en": "Do you like to  study the history of an ancient society?",
+            "rewritten_zh": "你喜欢研究一个古代社会的历史吗？",
+            "dimension": "Humanities",
+            "category": "positive"
+        },
+        "58": {
+            "origin_en": "Study various branches of philosophy.",
+            "origin_zh": "研究哲学的各个分支。",
+            "rewritten_en": "Do you like to  study various branches of philosophy?",
+            "rewritten_zh": "你喜欢研究哲学的各个分支吗？",
+            "dimension": "Humanities",
+            "category": "positive"
+        },
+        "59": {
+            "origin_en": "Compare the modern history of different countries.",
+            "origin_zh": "比较不同国家的现代历史。",
+            "rewritten_en": "Do you like to  compare the modern history of different countries?",
+            "rewritten_zh": "你喜欢比较不同国家的现代历史吗？",
+            "dimension": "Humanities",
+            "category": "positive"
+        },
+        "60": {
+            "origin_en": "Document the traditions of a remote community.",
+            "origin_zh": "记录一个偏远社区的传统。",
+            "rewritten_en": "Do you like to  document the traditions of a remote community?",
+            "rewritten_zh": "你喜欢记录一个偏远社区的传统吗？",
+            "dimension": "Humanities",
+            "category": "positive"
+        },
+        "61": {
+            "origin_en": "Solve mathematical problems.",
+            "origin_zh": "解决数学问题。",
+            "rewritten_en": "Do you like to  solve mathematical problems?",
+            "rewritten_zh": "你喜欢解决数学问题吗？",
+            "dimension": "Mathematics/Statistics",
+            "category": "positive"
+        },
+        "62": {
+            "origin_en": "Learn about a new theory in geometry.",
+            "origin_zh": "了解几何学中的新理论。",
+            "rewritten_en": "Do you like to  learn about a new theory in geometry?",
+            "rewritten_zh": "你喜欢了解几何学中的新理论吗？",
+            "dimension": "Mathematics/Statistics",
+            "category": "positive"
+        },
+        "63": {
+            "origin_en": "Use mathematical equations to solve practical problems.",
+            "origin_zh": "使用数学方程式解决实际问题。",
+            "rewritten_en": "Do you like to  use mathematical equations to solve practical problems?",
+            "rewritten_zh": "你喜欢使用数学方程式解决实际问题吗？",
+            "dimension": "Mathematics/Statistics",
+            "category": "positive"
+        },
+        "64": {
+            "origin_en": "Develop a statistical model to explain a phenomenon.",
+            "origin_zh": "开发统计模型来解释现象。",
+            "rewritten_en": "Do you like to  develop a statistical model to explain a phenomenon?",
+            "rewritten_zh": "你喜欢开发统计模型来解释现象吗？",
+            "dimension": "Mathematics/Statistics",
+            "category": "positive"
+        },
+        "65": {
+            "origin_en": "Test and compare different software.",
+            "origin_zh": "测试并比较不同的软件。",
+            "rewritten_en": "Do you like to  test and compare different software?",
+            "rewritten_zh": "你喜欢测试并比较不同的软件吗？",
+            "dimension": "Information Technology",
+            "category": "positive"
+        },
+        "66": {
+            "origin_en": "Create a new computer database.",
+            "origin_zh": "创建一个新的计算机数据库。",
+            "rewritten_en": "Do you like to  create a new computer database?",
+            "rewritten_zh": "你喜欢创建一个新的计算机数据库吗？",
+            "dimension": "Information Technology",
+            "category": "positive"
+        },
+        "67": {
+            "origin_en": "Monitor the daily performance of computer systems.",
+            "origin_zh": "监控计算机系统的日常性能。",
+            "rewritten_en": "Do you like to  monitor the daily performance of computer systems?",
+            "rewritten_zh": "你喜欢监控计算机系统的日常性能吗？",
+            "dimension": "Information Technology",
+            "category": "positive"
+        },
+        "68": {
+            "origin_en": "Diagnose and resolve computer hardware or software problems.",
+            "origin_zh": "诊断和解决计算机硬件或软件问题。",
+            "rewritten_en": "Do you like to  diagnose and resolve computer hardware or software problems?",
+            "rewritten_zh": "你喜欢诊断和解决计算机硬件或软件问题吗？",
+            "dimension": "Information Technology",
+            "category": "positive"
+        },
+        "69": {
+            "origin_en": "Sketch a picture.",
+            "origin_zh": "画素描。",
+            "rewritten_en": "Do you like to  sketch a picture?",
+            "rewritten_zh": "你喜欢画素描吗？",
+            "dimension": "Visual Arts",
+            "category": "positive"
+        },
+        "70": {
+            "origin_en": "Paint a landscape.",
+            "origin_zh": "画风景。",
+            "rewritten_en": "Do you like to  paint a landscape?",
+            "rewritten_zh": "你喜欢画风景吗？",
+            "dimension": "Visual Arts",
+            "category": "positive"
+        },
+        "71": {
+            "origin_en": "Draw illustrations for a book.",
+            "origin_zh": "为一本书绘制插图。",
+            "rewritten_en": "Do you like to  draw illustrations for a book?",
+            "rewritten_zh": "你喜欢为一本书绘制插图吗？",
+            "dimension": "Visual Arts",
+            "category": "positive"
+        },
+        "72": {
+            "origin_en": "Create a unique piece of artwork.",
+            "origin_zh": "创作一件独特的艺术品。",
+            "rewritten_en": "Do you like to  create a unique piece of artwork?",
+            "rewritten_zh": "你喜欢创作一件独特的艺术品吗？",
+            "dimension": "Visual Arts",
+            "category": "positive"
+        },
+        "73": {
+            "origin_en": "Create a piece of artistic and functional furniture.",
+            "origin_zh": "制作一件艺术性和功能性兼备的家具。",
+            "rewritten_en": "Do you like to  create a piece of artistic and functional furniture?",
+            "rewritten_zh": "你喜欢制作一件艺术性和功能性兼备的家具吗？",
+            "dimension": "Applied Arts and Design",
+            "category": "positive"
+        },
+        "74": {
+            "origin_en": "Create the set for a movie or stage play.",
+            "origin_zh": "为电影或舞台剧设计布景。",
+            "rewritten_en": "Do you like to  create the set for a movie or stage play?",
+            "rewritten_zh": "你喜欢为电影或舞台剧设计布景吗？",
+            "dimension": "Applied Arts and Design",
+            "category": "positive"
+        },
+        "75": {
+            "origin_en": "Design the layout and lighting of an exhibition.",
+            "origin_zh": "设计展览的布局和灯光。",
+            "rewritten_en": "Do you like to  design the layout and lighting of an exhibition?",
+            "rewritten_zh": "你喜欢设计展览的布局和灯光吗？",
+            "dimension": "Applied Arts and Design",
+            "category": "positive"
+        },
+        "76": {
+            "origin_en": "Design unique packaging for a product.",
+            "origin_zh": "为产品设计独特的包装。",
+            "rewritten_en": "Do you like to  design unique packaging for a product?",
+            "rewritten_zh": "你喜欢为产品设计独特的包装吗？",
+            "dimension": "Applied Arts and Design",
+            "category": "positive"
+        },
+        "77": {
+            "origin_en": "Perform on stage for a group of people.",
+            "origin_zh": "在舞台上为一群人表演。",
+            "rewritten_en": "Do you like to  perform on stage for a group of people?",
+            "rewritten_zh": "你喜欢在舞台上为一群人表演吗？",
+            "dimension": "Performing Arts",
+            "category": "positive"
+        },
+        "78": {
+            "origin_en": "Act in a play.",
+            "origin_zh": "在一部戏剧中表演。",
+            "rewritten_en": "Do you like to  act in a play?",
+            "rewritten_zh": "你喜欢在一部戏剧中表演吗？",
+            "dimension": "Performing Arts",
+            "category": "positive"
+        },
+        "79": {
+            "origin_en": "Act out an emotional movie scene.",
+            "origin_zh": "演绎一个情感丰富的电影场景。",
+            "rewritten_en": "Do you like to  act out an emotional movie scene?",
+            "rewritten_zh": "你喜欢演绎一个情感丰富的电影场景吗？",
+            "dimension": "Performing Arts",
+            "category": "positive"
+        },
+        "80": {
+            "origin_en": "Perform comedy to entertain an audience.",
+            "origin_zh": "表演喜剧来取悦观众。",
+            "rewritten_en": "Do you like to  perform comedy to entertain an audience?",
+            "rewritten_zh": "你喜欢表演喜剧来取悦观众吗？",
+            "dimension": "Performing Arts",
+            "category": "positive"
+        },
+        "81": {
+            "origin_en": "Play a musical instrument.",
+            "origin_zh": "演奏乐器。",
+            "rewritten_en": "Do you like to  play a musical instrument?",
+            "rewritten_zh": "你喜欢会演奏乐器吗？",
+            "dimension": "Music",
+            "category": "positive"
+        },
+        "82": {
+            "origin_en": "Compose an original piece of music.",
+            "origin_zh": "创作原创音乐。",
+            "rewritten_en": "Do you like to  compose an original piece of music?",
+            "rewritten_zh": "你喜欢创作原创音乐吗？",
+            "dimension": "Music",
+            "category": "positive"
+        },
+        "83": {
+            "origin_en": "Play in a band.",
+            "origin_zh": "在乐队演奏。",
+            "rewritten_en": "Do you like to  play in a band?",
+            "rewritten_zh": "你喜欢在乐队演奏吗？",
+            "dimension": "Music",
+            "category": "positive"
+        },
+        "84": {
+            "origin_en": "Arrange background music for a show.",
+            "origin_zh": "为节目编配背景音乐。",
+            "rewritten_en": "Do you like to  arrange background music for a show?",
+            "rewritten_zh": "你喜欢为节目编配背景音乐吗？",
+            "dimension": "Music",
+            "category": "positive"
+        },
+        "85": {
+            "origin_en": "Write a novel.",
+            "origin_zh": "写一部小说。",
+            "rewritten_en": "Do you like to  write a novel?",
+            "rewritten_zh": "你喜欢写小说吗？",
+            "dimension": "Writing",
+            "category": "positive"
+        },
+        "86": {
+            "origin_en": "Write short stories.",
+            "origin_zh": "写短篇小说。",
+            "rewritten_en": "Do you like to  write short stories?",
+            "rewritten_zh": "你喜欢写短篇小说吗？",
+            "dimension": "Writing",
+            "category": "positive"
+        },
+        "87": {
+            "origin_en": "Compose a poem.",
+            "origin_zh": "创作诗歌。",
+            "rewritten_en": "Do you like to  compose a poem?",
+            "rewritten_zh": "你喜欢创作诗歌吗？",
+            "dimension": "Writing",
+            "category": "positive"
+        },
+        "88": {
+            "origin_en": "Study creative writing.",
+            "origin_zh": "学习创意写作。",
+            "rewritten_en": "Do you like to  study creative writing?",
+            "rewritten_zh": "你喜欢学习创意写作吗？",
+            "dimension": "Writing",
+            "category": "positive"
+        },
+        "89": {
+            "origin_en": "Direct a TV show.",
+            "origin_zh": "导演电视节目。",
+            "rewritten_en": "Do you like to  direct a TV show?",
+            "rewritten_zh": "你喜欢导演电视节目吗？",
+            "dimension": "Media",
+            "category": "positive"
+        },
+        "90": {
+            "origin_en": "Write a movie screenplay.",
+            "origin_zh": "写电影剧本。",
+            "rewritten_en": "Do you like to  write a movie screenplay?",
+            "rewritten_zh": "你喜欢写电影剧本吗？",
+            "dimension": "Media",
+            "category": "positive"
+        },
+        "91": {
+            "origin_en": "Host a radio program.",
+            "origin_zh": "主持广播节目。",
+            "rewritten_en": "Do you like to  host a radio program?",
+            "rewritten_zh": "你喜欢主持广播节目吗？",
+            "dimension": "Media",
+            "category": "positive"
+        },
+        "92": {
+            "origin_en": "Develop a podcast series.",
+            "origin_zh": "制作播客系列。",
+            "rewritten_en": "Do you like to  develop a podcast series?",
+            "rewritten_zh": "你喜欢制作播客系列吗？",
+            "dimension": "Media",
+            "category": "positive"
+        },
+        "93": {
+            "origin_en": "Select ingredients to prepare food.",
+            "origin_zh": "选择食材准备食物。",
+            "rewritten_en": "Do you like to  select ingredients to prepare food?",
+            "rewritten_zh": "你喜欢选择食材准备食物吗？",
+            "dimension": "Culinary Art",
+            "category": "positive"
+        },
+        "94": {
+            "origin_en": "Create the recipe for a new dish.",
+            "origin_zh": "创作新菜品的食谱。",
+            "rewritten_en": "Do you like to  create the recipe for a new dish?",
+            "rewritten_zh": "你喜欢创作新菜品的食谱吗？",
+            "dimension": "Culinary Art",
+            "category": "positive"
+        },
+        "95": {
+            "origin_en": "Create a new cooking technique to enhance flavor.",
+            "origin_zh": "创造新的烹饪技巧来增强口味。",
+            "rewritten_en": "Do you like to  create a new cooking technique to enhance flavor?",
+            "rewritten_zh": "你喜欢创造新的烹饪技巧来增强口味吗？",
+            "dimension": "Culinary Art",
+            "category": "positive"
+        },
+        "96": {
+            "origin_en": "Learn about required temperature and time for baking pastries.",
+            "origin_zh": "了解烘焙点心所需的温度和时间。",
+            "rewritten_en": "Do you like to  learn about required temperature and time for baking pastries?",
+            "rewritten_zh": "你了解烘焙点心所需的温度和时间吗？",
+            "dimension": "Culinary Art",
+            "category": "positive"
+        },
+        "97": {
+            "origin_en": "Teach students a new set of skills.",
+            "origin_zh": "教学生一套新技能。",
+            "rewritten_en": "Do you like to  teach students a new set of skills?",
+            "rewritten_zh": "你喜欢教学生一套新技能吗？",
+            "dimension": "Teaching/Education",
+            "category": "positive"
+        },
+        "98": {
+            "origin_en": "Explain a topic to someone with no prior knowledge of the subject.",
+            "origin_zh": "向对某一主题没有先前知识的人解释一个话题。",
+            "rewritten_en": "Do you like to  explain a topic to someone with no prior knowledge of the subject?",
+            "rewritten_zh": "你喜欢向对某一主题没有先前知识的人解释一个话题吗？",
+            "dimension": "Teaching/Education",
+            "category": "positive"
+        },
+        "99": {
+            "origin_en": "Teach a beginner how to perform a task.",
+            "origin_zh": "教一个初学者如何执行一个任务。",
+            "rewritten_en": "Do you like to  teach a beginner how to perform a task?",
+            "rewritten_zh": "你喜欢教一个初学者如何执行一个任务吗？",
+            "dimension": "Teaching/Education",
+            "category": "positive"
+        },
+        "100": {
+            "origin_en": "Teach visitors on educational field trips.",
+            "origin_zh": "在教育性实地考察中教导参观者。",
+            "rewritten_en": "Do you like to  teach visitors on educational field trips?",
+            "rewritten_zh": "你喜欢在教育性实地考察中教导参观者吗？",
+            "dimension": "Teaching/Education",
+            "category": "positive"
+        },
+        "101": {
+            "origin_en": "Volunteer at a community service center.",
+            "origin_zh": "在社区服务中心做志愿者。",
+            "rewritten_en": "Do you like to  volunteer at a community service center?",
+            "rewritten_zh": "你喜欢在社区服务中心做志愿者吗？",
+            "dimension": "Social Service",
+            "category": "positive"
+        },
+        "102": {
+            "origin_en": "Help someone overcome an obstacle in personal life.",
+            "origin_zh": "帮助别人克服个人生活中的障碍。",
+            "rewritten_en": "Do you like to  help someone overcome an obstacle in personal life?",
+            "rewritten_zh": "你喜欢帮助别人克服个人生活中的障碍吗？",
+            "dimension": "Social Service",
+            "category": "positive"
+        },
+        "103": {
+            "origin_en": "Provide aid to students from underprivileged backgrounds.",
+            "origin_zh": "为贫困背景的学生提供帮助。",
+            "rewritten_en": "Do you like to  provide aid to students from underprivileged backgrounds?",
+            "rewritten_zh": "你喜欢为贫困背景的学生提供帮助吗？",
+            "dimension": "Social Service",
+            "category": "positive"
+        },
+        "104": {
+            "origin_en": "Assist people with disabilities in finding employment.",
+            "origin_zh": "帮助残疾人找工作。",
+            "rewritten_en": "Do you like to  assist people with disabilities in finding employment?",
+            "rewritten_zh": "你喜欢帮助残疾人找工作吗？",
+            "dimension": "Social Service",
+            "category": "positive"
+        },
+        "105": {
+            "origin_en": "Treat patients for acute illnesses or injuries.",
+            "origin_zh": "治疗急性疾病或受伤的患者。",
+            "rewritten_en": "Do you like to  treat patients for acute illnesses or injuries?",
+            "rewritten_zh": "你喜欢治疗急性疾病或受伤的患者吗？",
+            "dimension": "Health Care Service",
+            "category": "positive"
+        },
+        "106": {
+            "origin_en": "Care for patients in critical condition.",
+            "origin_zh": "照顾重症患者。",
+            "rewritten_en": "Do you like to  care for patients in critical condition?",
+            "rewritten_zh": "你喜欢照顾重症患者吗？",
+            "dimension": "Health Care Service",
+            "category": "positive"
+        },
+        "107": {
+            "origin_en": "Monitor patient reactions to medicines.",
+            "origin_zh": "监测患者对药物的反应。",
+            "rewritten_en": "Do you like to  monitor patient reactions to medicines?",
+            "rewritten_zh": "你喜欢监测患者对药物的反应吗？",
+            "dimension": "Health Care Service",
+            "category": "positive"
+        },
+        "108": {
+            "origin_en": "Formulate treatment plans for patients.",
+            "origin_zh": "为患者制定治疗计划。",
+            "rewritten_en": "Do you like to  formulate treatment plans for patients?",
+            "rewritten_zh": "你喜欢为患者制定治疗计划吗？",
+            "dimension": "Health Care Service",
+            "category": "positive"
+        },
+        "109": {
+            "origin_en": "Provide spiritual guidance for others.",
+            "origin_zh": "为他人提供灵性指导。",
+            "rewritten_en": "Do you like to  provide spiritual guidance for others?",
+            "rewritten_zh": "你喜欢为他人提供灵性指导吗？",
+            "dimension": "Religious Activities",
+            "category": "positive"
+        },
+        "110": {
+            "origin_en": "Explain a religious text to people.",
+            "origin_zh": "向人解释宗教文本。",
+            "rewritten_en": "Do you like to  explain a religious text to people?",
+            "rewritten_zh": "你喜欢向人解释宗教文本吗？",
+            "dimension": "Religious Activities",
+            "category": "positive"
+        },
+        "111": {
+            "origin_en": "Teach religious beliefs and rituals.",
+            "origin_zh": "教授宗教信仰和仪式。",
+            "rewritten_en": "Do you like to  teach religious beliefs and rituals?",
+            "rewritten_zh": "你喜欢教授宗教信仰和仪式吗？",
+            "dimension": "Religious Activities",
+            "category": "positive"
+        },
+        "112": {
+            "origin_en": "Work with a religious youth group.",
+            "origin_zh": "与宗教青年团体合作。",
+            "rewritten_en": "Do you like to  work with a religious youth group?",
+            "rewritten_zh": "你喜欢与宗教青年团体合作吗？",
+            "dimension": "Religious Activities",
+            "category": "positive"
+        },
+        "113": {
+            "origin_en": "Arrange travel plans and accommodations for clients.",
+            "origin_zh": "为客户安排旅行计划和住宿。",
+            "rewritten_en": "Do you like to  arrange travel plans and accommodations for clients?",
+            "rewritten_zh": "你喜欢为客户安排旅行计划和住宿吗？",
+            "dimension": "Personal Service",
+            "category": "positive"
+        },
+        "114": {
+            "origin_en": "Greet guests and answer questions at an information desk.",
+            "origin_zh": "在信息台迎接客人并回答问题。",
+            "rewritten_en": "Do you like to  greet guests and answer questions at an information desk?",
+            "rewritten_zh": "你喜欢在信息台迎接客人并回答问题吗？",
+            "dimension": "Personal Service",
+            "category": "positive"
+        },
+        "115": {
+            "origin_en": "Help clients plan for their special occasions.",
+            "origin_zh": "帮助客户策划特殊场合。",
+            "rewritten_en": "Do you like to  help clients plan for their special occasions?",
+            "rewritten_zh": "你喜欢帮助客户策划特殊场合吗？",
+            "dimension": "Personal Service",
+            "category": "positive"
+        },
+        "116": {
+            "origin_en": "Organize recreational activities for clients.",
+            "origin_zh": "为客户组织娱乐活动。",
+            "rewritten_en": "Do you like to  organize recreational activities for clients?",
+            "rewritten_zh": "你喜欢为客户组织娱乐活动吗？",
+            "dimension": "Personal Service",
+            "category": "positive"
+        },
+        "117": {
+            "origin_en": "Coach others to develop leadership skills.",
+            "origin_zh": "指导他人发展领导技能。",
+            "rewritten_en": "Do you like to  coach others to develop leadership skills?",
+            "rewritten_zh": "你喜欢指导他人发展领导技能吗？",
+            "dimension": "Professional Advising",
+            "category": "positive"
+        },
+        "118": {
+            "origin_en": "Coach people to prepare for job interviews.",
+            "origin_zh": "指导人们准备面试。",
+            "rewritten_en": "Do you like to  coach people to prepare for job interviews?",
+            "rewritten_zh": "你喜欢指导人们准备面试吗？",
+            "dimension": "Professional Advising",
+            "category": "positive"
+        },
+        "119": {
+            "origin_en": "Advise people in meeting their professional goals.",
+            "origin_zh": "指导人们实现职业目标。",
+            "rewritten_en": "Do you like to  advise people in meeting their professional goals?",
+            "rewritten_zh": "你喜欢指导人们实现职业目标吗？",
+            "dimension": "Professional Advising",
+            "category": "positive"
+        },
+        "120": {
+            "origin_en": "Instruct clients in effective communication techniques.",
+            "origin_zh": "指导客户有效沟通技巧。",
+            "rewritten_en": "Do you like to  instruct clients in effective communication techniques?",
+            "rewritten_zh": "你喜欢指导客户有效沟通技巧吗？",
+            "dimension": "Professional Advising",
+            "category": "positive"
+        },
+        "121": {
+            "origin_en": "Negotiate a business deal.",
+            "origin_zh": "谈判一项商业交易。",
+            "rewritten_en": "Do you like to  negotiate a business deal?",
+            "rewritten_zh": "你喜欢谈判一项商业交易吗？",
+            "dimension": "Business Initiatives",
+            "category": "positive"
+        },
+        "122": {
+            "origin_en": "Set up a string of small business enterprises.",
+            "origin_zh": "建立一系列小型企业。",
+            "rewritten_en": "Do you like to  set up a string of small business enterprises?",
+            "rewritten_zh": "你喜欢建立一系列小型企业吗？",
+            "dimension": "Business Initiatives",
+            "category": "positive"
+        },
+        "123": {
+            "origin_en": "Expand a business to incorporate a new line of products.",
+            "origin_zh": "扩大业务以纳入新产品线。",
+            "rewritten_en": "Do you like to  expand a business to incorporate a new line of products?",
+            "rewritten_zh": "你喜欢扩大业务以纳入新产品线吗？",
+            "dimension": "Business Initiatives",
+            "category": "positive"
+        },
+        "124": {
+            "origin_en": "Beat competitors through strategic business practices.",
+            "origin_zh": "通过战略商业实践击败竞争对手。",
+            "rewritten_en": "Do you like to  beat competitors through strategic business practices?",
+            "rewritten_zh": "你喜欢通过战略商业实践击败竞争对手吗？",
+            "dimension": "Business Initiatives",
+            "category": "positive"
+        },
+        "125": {
+            "origin_en": "Persuade customers to try a new product.",
+            "origin_zh": "说服客户尝试新产品。",
+            "rewritten_en": "Do you like to  persuade customers to try a new product?",
+            "rewritten_zh": "你喜欢说服客户尝试新产品吗？",
+            "dimension": "Sales",
+            "category": "positive"
+        },
+        "126": {
+            "origin_en": "Increase sales for a company during a promotion week.",
+            "origin_zh": "在促销周为公司增加销售额。",
+            "rewritten_en": "Do you like to  increase sales for a company during a promotion week?",
+            "rewritten_zh": "你喜欢在促销周为公司增加销售额吗？",
+            "dimension": "Sales",
+            "category": "positive"
+        },
+        "127": {
+            "origin_en": "Sell services to a target group of people.",
+            "origin_zh": "向目标人群销售服务。",
+            "rewritten_en": "Do you like to  sell services to a target group of people?",
+            "rewritten_zh": "你喜欢向目标人群销售服务吗？",
+            "dimension": "Sales",
+            "category": "positive"
+        },
+        "128": {
+            "origin_en": "Learn tactics to be effective at sales.",
+            "origin_zh": "学习有效的销售策略。",
+            "rewritten_en": "Do you like to  learn tactics to be effective at sales?",
+            "rewritten_zh": "你喜欢学习有效的销售策略吗？",
+            "dimension": "Sales",
+            "category": "positive"
+        },
+        "129": {
+            "origin_en": "Lead an advertising campaign.",
+            "origin_zh": "领导一场广告活动。",
+            "rewritten_en": "Do you like to  lead an advertising campaign?",
+            "rewritten_zh": "你喜欢领导一场广告活动吗？",
+            "dimension": "Marketing/Advertising",
+            "category": "positive"
+        },
+        "130": {
+            "origin_en": "Market a company on social media platforms.",
+            "origin_zh": "在社交媒体平台上推广公司。",
+            "rewritten_en": "Do you like to  market a company on social media platforms?",
+            "rewritten_zh": "你喜欢在社交媒体平台上推广公司吗？",
+            "dimension": "Marketing/Advertising",
+            "category": "positive"
+        },
+        "131": {
+            "origin_en": "Coordinate marketing activities to promote a new product.",
+            "origin_zh": "协调营销活动以推广新产品。",
+            "rewritten_en": "Do you like to  coordinate marketing activities to promote a new product?",
+            "rewritten_zh": "你喜欢协调营销活动以推广新产品吗？",
+            "dimension": "Marketing/Advertising",
+            "category": "positive"
+        },
+        "132": {
+            "origin_en": "Distribute promotional materials to advertise an event.",
+            "origin_zh": "分发宣传材料以宣传活动。",
+            "rewritten_en": "Do you like to  distribute promotional materials to advertise an event?",
+            "rewritten_zh": "你喜欢分发宣传材料以宣传活动吗？",
+            "dimension": "Marketing/Advertising",
+            "category": "positive"
+        },
+        "133": {
+            "origin_en": "Make investment decisions based on financial data.",
+            "origin_zh": "根据财务数据做投资决策。",
+            "rewritten_en": "Do you like to  make investment decisions based on financial data?",
+            "rewritten_zh": "你喜欢根据财务数据做投资决策吗？",
+            "dimension": "Finance",
+            "category": "positive"
+        },
+        "134": {
+            "origin_en": "Analyze the financial information of a company.",
+            "origin_zh": "分析公司的财务信息。",
+            "rewritten_en": "Do you like to  analyze the financial information of a company?",
+            "rewritten_zh": "你喜欢分析公司的财务信息吗？",
+            "dimension": "Finance",
+            "category": "positive"
+        },
+        "135": {
+            "origin_en": "Project future expenditures of a business.",
+            "origin_zh": "预测企业未来的支出。",
+            "rewritten_en": "Do you like to  project future expenditures of a business?",
+            "rewritten_zh": "你喜欢预测企业未来的支出吗？",
+            "dimension": "Finance",
+            "category": "positive"
+        },
+        "136": {
+            "origin_en": "Assess potential risks and gains of an investment.",
+            "origin_zh": "评估投资的潜在风险和收益。",
+            "rewritten_en": "Do you like to  assess potential risks and gains of an investment?",
+            "rewritten_zh": "你喜欢评估投资的潜在风险和收益吗？",
+            "dimension": "Finance",
+            "category": "positive"
+        },
+        "137": {
+            "origin_en": "Prepare employee payroll.",
+            "origin_zh": "准备员工工资单。",
+            "rewritten_en": "Do you like to  prepare employee payroll?",
+            "rewritten_zh": "你喜欢准备员工工资单吗？",
+            "dimension": "Accounting",
+            "category": "positive"
+        },
+        "138": {
+            "origin_en": "Monitor account balance and prepare monthly statements.",
+            "origin_zh": "监控账户余额并准备月度报表。",
+            "rewritten_en": "Do you like to  monitor account balance and prepare monthly statements?",
+            "rewritten_zh": "你喜欢监控账户余额并准备月度报表吗？",
+            "dimension": "Accounting",
+            "category": "positive"
+        },
+        "139": {
+            "origin_en": "Keep accounting records for a company.",
+            "origin_zh": "为公司保管会计记录。",
+            "rewritten_en": "Do you like to  keep accounting records for a company?",
+            "rewritten_zh": "你喜欢为公司保管会计记录吗？",
+            "dimension": "Accounting",
+            "category": "positive"
+        },
+        "140": {
+            "origin_en": "Calculate tax deductions for a business.",
+            "origin_zh": "为企业计算税收扣除。",
+            "rewritten_en": "Do you like to  calculate tax deductions for a business?",
+            "rewritten_zh": "你喜欢为企业计算税收扣除吗？",
+            "dimension": "Accounting",
+            "category": "positive"
+        },
+        "141": {
+            "origin_en": "Hire employees and process hiring-related paperwork.",
+            "origin_zh": "招聘员工并处理与招聘相关的文件。",
+            "rewritten_en": "Do you like to  hire employees and process hiring-related paperwork?",
+            "rewritten_zh": "你喜欢招聘员工并处理与招聘相关的文件吗？",
+            "dimension": "Human Resources",
+            "category": "positive"
+        },
+        "142": {
+            "origin_en": "Conduct orientation sessions for new workers.",
+            "origin_zh": "为新员工进行入职培训。",
+            "rewritten_en": "Do you like to  conduct orientation sessions for new workers?",
+            "rewritten_zh": "你喜欢为新员工进行入职培训吗？",
+            "dimension": "Human Resources",
+            "category": "positive"
+        },
+        "143": {
+            "origin_en": "Explain company policies and benefits to employees.",
+            "origin_zh": "向员工解释公司政策和福利。",
+            "rewritten_en": "Do you like to  explain company policies and benefits to employees?",
+            "rewritten_zh": "你喜欢向员工解释公司政策和福利吗？",
+            "dimension": "Human Resources",
+            "category": "positive"
+        },
+        "144": {
+            "origin_en": "Conduct surveys of employee satisfaction.",
+            "origin_zh": "进行员工满意度调查。",
+            "rewritten_en": "Do you like to  conduct surveys of employee satisfaction?",
+            "rewritten_zh": "你喜欢进行员工满意度调查吗？",
+            "dimension": "Human Resources",
+            "category": "positive"
+        },
+        "145": {
+            "origin_en": "Enter personnel records into a computer program.",
+            "origin_zh": "将人事记录输入计算机程序。",
+            "rewritten_en": "Do you like to  enter personnel records into a computer program?",
+            "rewritten_zh": "你喜欢将人事记录输入计算机程序吗？",
+            "dimension": "Office Work",
+            "category": "positive"
+        },
+        "146": {
+            "origin_en": "Catalog files in an office.",
+            "origin_zh": "在办公室编目文件。",
+            "rewritten_en": "Do you like to  catalog files in an office?",
+            "rewritten_zh": "你喜欢在办公室编目文件吗？",
+            "dimension": "Office Work",
+            "category": "positive"
+        },
+        "147": {
+            "origin_en": "Print and disSEMinate documents to be used at a conference.",
+            "origin_zh": "打印和传播在会议上使用的文件。",
+            "rewritten_en": "Do you like to  print and disSEMinate documents to be used at a conference?",
+            "rewritten_zh": "你喜欢打印和传播在会议上使用的文件吗？",
+            "dimension": "Office Work",
+            "category": "positive"
+        },
+        "148": {
+            "origin_en": "Keep track of customer requests.",
+            "origin_zh": "跟踪客户的请求。",
+            "rewritten_en": "Do you like to  keep track of customer requests?",
+            "rewritten_zh": "你喜欢跟踪客户的请求吗？",
+            "dimension": "Office Work",
+            "category": "positive"
+        },
+        "149": {
+            "origin_en": "Manage a medium-sized organization.",
+            "origin_zh": "管理中型组织。",
+            "rewritten_en": "Do you like to  manage a medium-sized organization?",
+            "rewritten_zh": "你喜欢管理中型组织吗？",
+            "dimension": "Management/Administration",
+            "category": "positive"
+        },
+        "150": {
+            "origin_en": "Supervise a large number of workers.",
+            "origin_zh": "监督大量工人。",
+            "rewritten_en": "Do you like to  supervise a large number of workers?",
+            "rewritten_zh": "你喜欢监督大量工人吗？",
+            "dimension": "Management/Administration",
+            "category": "positive"
+        },
+        "151": {
+            "origin_en": "Serve as the chairperson for a corporate board.",
+            "origin_zh": "公司董事会主席。",
+            "rewritten_en": "Do you like to  serve as the chairperson for a corporate board?",
+            "rewritten_zh": "你喜欢担任公司董事会主席吗？",
+            "dimension": "Management/Administration",
+            "category": "positive"
+        },
+        "152": {
+            "origin_en": "Serve as the president of a professional association.",
+            "origin_zh": "担任专业协会的会长。",
+            "rewritten_en": "Do you like to  serve as the president of a professional association?",
+            "rewritten_zh": "你喜欢担任专业协会的会长吗？",
+            "dimension": "Management/Administration",
+            "category": "positive"
+        },
+        "153": {
+            "origin_en": "Present your ideas at a conference.",
+            "origin_zh": "在会议上展示你的想法。",
+            "rewritten_en": "Do you like to  present your ideas at a conference?",
+            "rewritten_zh": "你喜欢在会议上展示你的想法吗？",
+            "dimension": "Public Speaking",
+            "category": "positive"
+        },
+        "154": {
+            "origin_en": "Speak as the representative of an organization.",
+            "origin_zh": "作为组织的代表发言。",
+            "rewritten_en": "Do you like to  speak as the representative of an organization?",
+            "rewritten_zh": "你喜欢作为组织的代表发言吗？",
+            "dimension": "Public Speaking",
+            "category": "positive"
+        },
+        "155": {
+            "origin_en": "Be the speaker at a fund-raising event for a worthy cause.",
+            "origin_zh": "在为有价值的事业举办的筹款活动上演讲。",
+            "rewritten_en": "Do you like to  be the speaker at a fund-raising event for a worthy cause?",
+            "rewritten_zh": "你喜欢在为有价值的事业举办的筹款活动上演讲吗？",
+            "dimension": "Public Speaking",
+            "category": "positive"
+        },
+        "156": {
+            "origin_en": "Make a public speech to raise awareness of community issues.",
+            "origin_zh": "发表公开演讲，提高社区问题意识。",
+            "rewritten_en": "Do you like to  make a public speech to raise awareness of community issues?",
+            "rewritten_zh": "你喜欢发表公开演讲，提高社区问题意识吗？",
+            "dimension": "Public Speaking",
+            "category": "positive"
+        },
+        "157": {
+            "origin_en": "Run for a political office.",
+            "origin_zh": "竞选政治职位。",
+            "rewritten_en": "Do you like to  run for a political office?",
+            "rewritten_zh": "你喜欢竞选政治职位吗？",
+            "dimension": "Politics",
+            "category": "positive"
+        },
+        "158": {
+            "origin_en": "Be the head of the city council.",
+            "origin_zh": "担任市议会主席。",
+            "rewritten_en": "Do you like to  be the head of the city council?",
+            "rewritten_zh": "你喜欢担任市议会主席吗？",
+            "dimension": "Politics",
+            "category": "positive"
+        },
+        "159": {
+            "origin_en": "Lead a committee to make policy decisions.",
+            "origin_zh": "领导委员会制定政策决策。",
+            "rewritten_en": "Do you like to  lead a committee to make policy decisions?",
+            "rewritten_zh": "你喜欢领导委员会制定政策决策吗？",
+            "dimension": "Politics",
+            "category": "positive"
+        },
+        "160": {
+            "origin_en": "Assume political leadership responsibilities.",
+            "origin_zh": "承担政治领导责任。",
+            "rewritten_en": "Do you like to  assume political leadership responsibilities?",
+            "rewritten_zh": "你喜欢承担政治领导责任吗？",
+            "dimension": "Politics",
+            "category": "positive"
+        },
+        "161": {
+            "origin_en": "Defend a client against a legal charge.",
+            "origin_zh": "为客户辩护，对抗法律指控。",
+            "rewritten_en": "Do you like to  defend a client against a legal charge?",
+            "rewritten_zh": "你喜欢为客户辩护，对抗法律指控吗？",
+            "dimension": "Law",
+            "category": "positive"
+        },
+        "162": {
+            "origin_en": "Present logical arguments in a courtroom.",
+            "origin_zh": "在法庭上提出逻辑论据。",
+            "rewritten_en": "Do you like to  present logical arguments in a courtroom?",
+            "rewritten_zh": "你喜欢在法庭上提出逻辑论据吗？",
+            "dimension": "Law",
+            "category": "positive"
+        },
+        "163": {
+            "origin_en": "Provide compelling evidence for a trial.",
+            "origin_zh": "为审判提供有力证据。",
+            "rewritten_en": "Do you like to  provide compelling evidence for a trial?",
+            "rewritten_zh": "你喜欢为审判提供有力证据吗？",
+            "dimension": "Law",
+            "category": "positive"
+        },
+        "164": {
+            "origin_en": "Resolve legal disputes between parties.",
+            "origin_zh": "解决当事方之间的法律纠纷。",
+            "rewritten_en": "Do you like to  resolve legal disputes between parties?",
+            "rewritten_zh": "你喜欢解决当事方之间的法律纠纷吗？",
+            "dimension": "Law",
+            "category": "positive"
+        }
+    },
+    "prompts": {
+        "rpa_choose_prefix": {
+            "en": "Do you like to \"<statement>\"?",
+            "zh": "你喜欢\"<statement>\"吗？"
+        },
+        "convert_to_choice": {
+            "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> agrees with the statement. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n",
+            "zh": "我已经和<character>进行了许多对话。我将输入一个包含许多样本的字典，其中每个样本包括一个陈述和一段对话。\n你的任务是将每段对话转换为一个选择，表示<character>是否同意该陈述。你应该输出一个字典，其中键与输入字典相同，值为选择。\n===输出格式===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===选择指示==="
+        },
+        "llm_choice_instruction": {
+            "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike', 2 means 'Slightly Dislike', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like', 5 means 'Like Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it.",
+            "zh": "每个选择都是从1到5的数字。请根据对话使用以下评分标准评估<character>：1表示“不喜欢”，2表示“稍微不喜欢”，3表示“既不喜欢也不讨厌”，4表示“稍微喜欢”，5表示“非常喜欢”。如果<character>拒绝回答该问题，用“x”表示。"
+        },
+        "rpa_choice_instruction": {
+            "en": "Reply a number from 1 to 5 using the scales: 1 means 'Dislike', 2 means 'Slightly Dislike', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like', 5 means 'Like Very Much'. Please answer with the number only, without anything else.",
+            "zh": "请用1到5的等级来回答，1代表“不喜欢”，2代表“稍微不喜欢”，3代表“既不喜欢也不讨厌”，4代表“稍微喜欢”，5代表“非常喜欢”。请你只回答这一个数字，不要说其他内容。"
+        },
+        "convert_to_choice_adjoption": {
+            "Mechanics/Electronics": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Mechanics/Electronics. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Construction/WoodWork": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Construction/WoodWork. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Transportation/Machine Operation": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Transportation/Machine Operation. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Physical/Manual Labor": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Physical/Manual Labor. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Protective Service": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Protective Service. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Agriculture": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Agriculture. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Nature/Outdoors": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Nature/Outdoors. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Animal Service": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Animal Service. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Athletics": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Athletics. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Engineering": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Engineering. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Physical Science": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Physical Science. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Life Science": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Life Science. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Medical Science": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Medical Science. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Social Science": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Social Science. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Humanities": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Humanities. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Mathematics/Statistics": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Mathematics/Statistics. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Information Technology": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Information Technology. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Visual Arts": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Visual Arts. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Applied Arts and Design": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Applied Arts and Design. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Performing Arts": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Performing Arts. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Music": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Music. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Writing": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Writing. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Media": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Media. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Culinary Art": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Culinary Art. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Teaching/Education": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Teaching/Education. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Social Service": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Social Service. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Health Care Service": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Health Care Service. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Religious Activities": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Religious Activities. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Personal Service": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Personal Service. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Professional Advising": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Professional Advising. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Business Initiatives": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Business Initiatives. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Sales": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Sales. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Marketing/Advertising": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Marketing/Advertising. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Finance": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Finance. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Accounting": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Accounting. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Human Resources": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Human Resources. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Office Work": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Office Work. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Management/Administration": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Management/Administration. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Public Speaking": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Public Speaking. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Politics": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Politics. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Law": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> likes Law. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            }
+        },
+        "llm_choice_instruction_adjoption": {
+            "Mechanics/Electronics": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Mechanics/Electronics', 2 means 'Slightly Dislike Mechanics/Electronics', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Mechanics/Electronics', 5 means 'Like Mechanics/Electronics Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Construction/WoodWork": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Construction/WoodWork', 2 means 'Slightly Dislike Construction/WoodWork', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Construction/WoodWork', 5 means 'Like Construction/WoodWork Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Transportation/Machine Operation": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Transportation/Machine Operation', 2 means 'Slightly Dislike Transportation/Machine Operation', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Transportation/Machine Operation', 5 means 'Like Transportation/Machine Operation Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Physical/Manual Labor": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Physical/Manual Labor', 2 means 'Slightly Dislike Physical/Manual Labor', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Physical/Manual Labor', 5 means 'Like Physical/Manual Labor Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Protective Service": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Protective Service', 2 means 'Slightly Dislike Protective Service', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Protective Service', 5 means 'Like Protective Service Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Agriculture": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Agriculture', 2 means 'Slightly Dislike Agriculture', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Agriculture', 5 means 'Like Agriculture Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Nature/Outdoors": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Nature/Outdoors', 2 means 'Slightly Dislike Nature/Outdoors', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Nature/Outdoors', 5 means 'Like Nature/Outdoors Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Animal Service": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Animal Service', 2 means 'Slightly Dislike Animal Service', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Animal Service', 5 means 'Like Animal Service Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Athletics": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Athletics', 2 means 'Slightly Dislike Athletics', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Athletics', 5 means 'Like Athletics Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Engineering": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Engineering', 2 means 'Slightly Dislike Engineering', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Engineering', 5 means 'Like Engineering Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Physical Science": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Physical Science', 2 means 'Slightly Dislike Physical Science', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Physical Science', 5 means 'Like Physical Science Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Life Science": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Life Science', 2 means 'Slightly Dislike Life Science', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Life Science', 5 means 'Like Life Science Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Medical Science": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Medical Science', 2 means 'Slightly Dislike Medical Science', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Medical Science', 5 means 'Like Medical Science Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Social Science": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Social Science', 2 means 'Slightly Dislike Social Science', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Social Science', 5 means 'Like Social Science Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Humanities": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Humanities', 2 means 'Slightly Dislike Humanities', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Humanities', 5 means 'Like Humanities Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Mathematics/Statistics": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Mathematics/Statistics', 2 means 'Slightly Dislike Mathematics/Statistics', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Mathematics/Statistics', 5 means 'Like Mathematics/Statistics Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Information Technology": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Information Technology', 2 means 'Slightly Dislike Information Technology', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Information Technology', 5 means 'Like Information Technology Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Visual Arts": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Visual Arts', 2 means 'Slightly Dislike Visual Arts', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Visual Arts', 5 means 'Like Visual Arts Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Applied Arts and Design": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Applied Arts and Design', 2 means 'Slightly Dislike Applied Arts and Design', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Applied Arts and Design', 5 means 'Like Applied Arts and Design Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Performing Arts": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Performing Arts', 2 means 'Slightly Dislike Performing Arts', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Performing Arts', 5 means 'Like Performing Arts Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Music": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Music', 2 means 'Slightly Dislike Music', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Music', 5 means 'Like Music Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Writing": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Writing', 2 means 'Slightly Dislike Writing', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Writing', 5 means 'Like Writing Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Media": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Media', 2 means 'Slightly Dislike Media', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Media', 5 means 'Like Media Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Culinary Art": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Culinary Art', 2 means 'Slightly Dislike Culinary Art', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Culinary Art', 5 means 'Like Culinary Art Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Teaching/Education": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Teaching/Education', 2 means 'Slightly Dislike Teaching/Education', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Teaching/Education', 5 means 'Like Teaching/Education Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Social Service": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Social Service', 2 means 'Slightly Dislike Social Service', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Social Service', 5 means 'Like Social Service Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Health Care Service": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Health Care Service', 2 means 'Slightly Dislike Health Care Service', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Health Care Service', 5 means 'Like Health Care Service Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Religious Activities": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Religious Activities', 2 means 'Slightly Dislike Religious Activities', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Religious Activities', 5 means 'Like Religious Activities Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Personal Service": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Personal Service', 2 means 'Slightly Dislike Personal Service', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Personal Service', 5 means 'Like Personal Service Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Professional Advising": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Professional Advising', 2 means 'Slightly Dislike Professional Advising', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Professional Advising', 5 means 'Like Professional Advising Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Business Initiatives": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Business Initiatives', 2 means 'Slightly Dislike Business Initiatives', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Business Initiatives', 5 means 'Like Business Initiatives Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Sales": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Sales', 2 means 'Slightly Dislike Sales', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Sales', 5 means 'Like Sales Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Marketing/Advertising": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Marketing/Advertising', 2 means 'Slightly Dislike Marketing/Advertising', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Marketing/Advertising', 5 means 'Like Marketing/Advertising Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Finance": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Finance', 2 means 'Slightly Dislike Finance', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Finance', 5 means 'Like Finance Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Accounting": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Accounting', 2 means 'Slightly Dislike Accounting', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Accounting', 5 means 'Like Accounting Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Human Resources": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Human Resources', 2 means 'Slightly Dislike Human Resources', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Human Resources', 5 means 'Like Human Resources Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Office Work": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Office Work', 2 means 'Slightly Dislike Office Work', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Office Work', 5 means 'Like Office Work Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Management/Administration": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Management/Administration', 2 means 'Slightly Dislike Management/Administration', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Management/Administration', 5 means 'Like Management/Administration Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Public Speaking": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Public Speaking', 2 means 'Slightly Dislike Public Speaking', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Public Speaking', 5 means 'Like Public Speaking Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Politics": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Politics', 2 means 'Slightly Dislike Politics', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Politics', 5 means 'Like Politics Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Law": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 means 'Dislike Law', 2 means 'Slightly Dislike Law', 3 means 'Neither Like nor Dislike', 4 means 'Slightly Like Law', 5 means 'Like Law Very Much'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            }
+        },
+        "dim_desc": {
+            "Mechanics/Electronics": "This dimension reflects a strong interest in understanding, repairing, and maintaining mechanical and electronic systems. It includes activities such as repairing car engines, performing aircraft maintenance, and installing communication systems. High scorers are likely to enjoy working with their hands, solving technical problems, and have a keen interest in how machines operate.",
+            "Construction/WoodWork": "Individuals scoring high in this area show a preference for constructing and creating structures or objects, often from materials like wood. They enjoy practical tasks such as building furniture, crafting wood wall shelves, and constructing fences, demonstrating skill, creativity, and a tangible outcome from their efforts.",
+            "Transportation/Machine Operation": "This dimension indicates a fascination with operating vehicles and heavy machinery. High scorers find satisfaction in driving buses, operating trains, or managing cranes, often showing an appreciation for the mechanics of transportation and the responsibility of safely moving goods or people.",
+            "Physical/Manual Labor": "Reflecting an interest in physical exertion and hands-on work, this dimension covers activities from loading and unloading cargo to moving construction materials. High scorers thrive in active roles that require strength, stamina, and a direct impact on physical tasks.",
+            "Protective Service": "Those interested in serving and protecting the community score high here. It encompasses law enforcement and security tasks such as arresting suspects, conducting surveillance, and inspecting for illegal goods, showing a commitment to safety and justice.",
+            "Agriculture": "High scorers in this dimension are drawn to farming, gardening, and working with the land. They enjoy cultivating crops, studying soil science, and managing orchards, often with a deep respect for nature and sustainable practices.",
+            "Nature/Outdoors": "This interest area focuses on outdoor activities and conservation efforts. Individuals prefer engaging with the natural environment, whether through planting trees, restoring wildlife habitats, or surveying forest areas, showing a passion for environmental preservation.",
+            "Animal Service": "Reflecting a love for animals, this dimension includes caring for, treating, and managing animals in various settings. High scorers are compassionate, dedicated to animal welfare, and interested in veterinary services or animal care roles.",
+            "Athletics": "Individuals with a strong inclination towards sports and physical competition score high in this dimension. They enjoy participating in, training for, and coaching sports, showing a commitment to physical fitness and competitive achievement.",
+            "Engineering": "This area indicates a keen interest in designing, innovating, and improving systems and structures. It includes activities like structural design to withstand environmental challenges and developing new materials, showcasing a problem-solving mindset and technical acuity.",
+            "Physical Science": "High scorers are fascinated by the natural world's fundamental principles, including studying galaxies, analyzing geological samples, and investigating physical phenomena, demonstrating curiosity and analytical skills.",
+            "Life Science": "This dimension covers interests in the biological aspects of life, from genetic research to studying organisms' physiology. Individuals are intrigued by life's complexities and contribute to advancing medical, environmental, or biological understanding.",
+            "Medical Science": "Reflecting a commitment to health and well-being, high scorers are drawn to diagnosing, treating, and researching medical conditions. They are interested in advancing healthcare practices and improving patient outcomes.",
+            "Social Science": "Individuals scoring high in this dimension are interested in studying societies, cultural differences, and human behavior. They aim to understand and address social issues through research and analysis.",
+            "Humanities": "This area includes interests in exploring human culture, history, and philosophy. High scorers enjoy studying ancient societies, comparing historical narratives, and delving into philosophical debates, demonstrating a deep appreciation for human thought and culture.",
+            "Mathematics/Statistics": "Reflecting a love for numbers and data analysis, individuals enjoy solving mathematical problems, developing statistical models, and applying quantitative methods to real-world situations, showcasing strong analytical and logical reasoning skills.",
+            "Information Technology": "High scorers are interested in computer science, software development, and technology management. They enjoy programming, troubleshooting hardware or software issues, and keeping abreast of technological advancements.",
+            "Visual Arts": "This dimension represents a strong inclination towards creating and appreciating visual art forms. Individuals enjoy sketching, painting, and producing unique artworks, demonstrating creativity and a keen eye for aesthetics.",
+            "Applied Arts and Design": "Individuals scoring high here are interested in combining artistic creativity with functional design. They engage in activities like creating artistic furniture, designing sets for media productions, and developing innovative design solutions.",
+            "Performing Arts": "Reflecting a passion for expressing creativity through performance, high scorers enjoy acting, dancing, or playing music in front of an audience, showcasing talent, expressiveness, and a connection with viewers.",
+            "Music": "This dimension includes interests in playing instruments, composing music, and participating in musical ensembles. High scorers have a deep appreciation for music's expressive power and enjoy creating or performing musical pieces.",
+            "Writing": "High scorers are passionate about storytelling and language, often writing narratives, poetry, and creative pieces. They explore themes and express thoughts through writing, showing a commitment to the craft for personal fulfillment or professional aims.",
+            "Media": "This area reflects an interest in creating, managing, and contributing to various media forms. High scorers enjoy directing TV shows, writing screenplays, hosting radio programs, or developing digital content, showcasing a knack for communication and audience engagement.",
+            "Culinary Art": "Reflecting a passion for cooking and food preparation, individuals enjoy experimenting with recipes, creating new dishes, and exploring culinary techniques. They appreciate the art of cooking and aim to enhance flavor and presentation.",
+            "Teaching/Education": "High scorers are drawn to sharing knowledge, instructing others, and facilitating learning. They enjoy teaching a range of subjects, mentoring students, and contributing to educational development, demonstrating patience, and a commitment to helping others grow.",
+            "Social Service": "This dimension indicates a strong inclination towards helping and serving others, especially those in need. Individuals engage in community service, assist underprivileged groups, and work towards social betterment, showing empathy and a desire to make a positive impact.",
+            "Health Care Service": "Reflecting an interest in promoting health and well-being, high scorers are drawn to treating patients, caring for individuals in critical conditions, and contributing to the medical field, showing compassion and a commitment to healthcare.",
+            "Religious Activities": "High scorers are interested in spiritual leadership, teaching religious beliefs, and engaging in faith-based community work. They value spiritual guidance and aim to foster a sense of community and faith.",
+            "Personal Service": "This area includes providing direct services to individuals, such as travel planning, event organization, and recreational activities. High scorers enjoy enhancing clients' experiences and satisfaction through personalized attention.", 
+            "Professional Advising": "Individuals scoring high here are interested in coaching, mentoring, and advising others professionally. They aim to help others achieve their career goals, improve communication skills, and navigate professional challenges.",
+            "Business Initiatives": "Reflecting entrepreneurial spirit, high scorers are interested in starting businesses, negotiating deals, and exploring new market opportunities. They have a knack for strategic thinking and aim to achieve business success.",
+            "Sales": "This dimension includes an interest in selling products or services, increasing sales, and engaging with customers. High scorers are persuasive, goal-oriented, and enjoy the challenge of meeting sales targets.",
+            "Marketing/Advertising": "High scorers are drawn to promoting products, creating advertising campaigns, and developing marketing strategies. They enjoy creative thinking, audience analysis, and the challenge of enhancing brand visibility.",
+            "Finance": "Reflecting an interest in financial management and investment, individuals enjoy analyzing financial data, assessing investment risks, and planning budgets. They have strong analytical skills and aim to maximize financial performance.",
+            "Accounting": "High scorers are interested in managing financial records, preparing payroll, and ensuring accuracy in financial reporting. They value precision, organization, and the role of accounting in business operations.",
+            "Human Resources": "This dimension includes interests in recruiting, training, and managing employee relations. High scorers aim to improve workplace environments, support employee development, and ensure organizational effectiveness.",
+            "Office Work": "Reflecting an interest in administrative tasks, high scorers enjoy organizing files, managing records, and supporting office operations. They value efficiency, organization, and the smooth running of office systems.",
+            "Management/Administration": "High scorers are interested in leading organizations, supervising teams, and making strategic decisions. They aim to guide businesses or groups towards achieving their goals and improving performance.",
+            "Public Speaking": "This area includes presenting ideas, representing organizations, and engaging with audiences through speech. High scorers enjoy communication, influencing others, and the opportunity to share their views publicly.",
+            "Politics": "Reflecting an interest in political leadership and policy-making, high scorers aim to influence public policy, lead political organizations, and contribute to governance, demonstrating a commitment to public service and leadership.",
+            "Law": "High scorers are drawn to the legal field, including defending clients, presenting arguments in court, and resolving disputes. They value justice, logical reasoning, and the role of law in society."
+        }
+    }
+}
