@@ -504,13 +504,35 @@ def truncate(response):
 		words = words[:500]
 		return ' '.join(words)
 
+def get_response_json(post_processing_funcs=[string2json], **kwargs):
+	
+	nth_generation = 0
+
+
+	while (True):
+		response = get_response(**kwargs, nth_generation=nth_generation)
+		
+		for post_processing_func in post_processing_funcs:
+			response = post_processing_func(response, nth_generation, **kwargs)
+		#print(f'parse results: {json_response}')
+		json_response = response 
+		
+		if json_response:
+			break 
+		else:
+			nth_generation += 1
+			if nth_generation > 12:
+				break	
+
+
+	return json_response
 
 if __name__ == '__main__':
 	pass
 
 	
 
-	
+
 		
 
 

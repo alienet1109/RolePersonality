@@ -69,7 +69,7 @@ with open('config.json', 'r') as f:
 
 
 def load_questionnaire(questionnaire_name):
-    q_path = os.path.join('..', 'data', 'questionnaires', f'{questionnaire_name}.json')
+    q_path = os.path.join('.', 'data', 'questionnaires', f'{questionnaire_name}.json')
 
     # read this jsonl file
     with open(q_path, 'r', encoding='utf-8') as f:
@@ -159,9 +159,9 @@ def build_character_agent(character_code, agent_type, agent_llm):
         elif agent_llm.startswith('gpt-4'):
             agent_llm = 'gpt-4-1106-preview'
     global llm
+    os.environ["OPENAI_API_KEY"] = config['openai_apikey']
     if not llm:
         llm, tokenizer = get_models(model_name=agent_llm)
-    os.environ["OPENAI_API_KEY"] = config['openai_apikey']
     if agent_type_args[0] == 'ChatHaruhi':
         character_agent = ChatHaruhi(role_name = character_info[character_code]["agent"]["ChatHaruhi"], llm_name = agent_llm,llm=llm)
     elif agent_type_args[0] == 'RoleLLM':
@@ -333,7 +333,7 @@ def assess(character_aliases, experimenter, questionnaire_results, questionnaire
         
         
     global previous_file_path
-    previous_file_path_cp = previous_file_path.replace('../results/assessment/', '../results/assessment_cp/')
+    previous_file_path_cp = previous_file_path.replace('./results/assessment/', './results/assessment_cp/')
     if os.path.exists(previous_file_path_cp):
         previous_file_path = previous_file_path_cp
 
@@ -672,7 +672,7 @@ def assess(character_aliases, experimenter, questionnaire_results, questionnaire
     return assessment_results 
 
 def personality_assessment(character, agent_type, agent_llm, questionnaire_name, eval_method, evaluator_llm='gpt-3.5-turbo', 
-                           repeat_times=1, if_multiround = 0):   
+                           repeat_times=1, if_multiround = 0, eval_mode = False):   
 
     
     if character in character_info.keys():
@@ -707,9 +707,9 @@ def personality_assessment(character, agent_type, agent_llm, questionnaire_name,
     dims = dims_dict.get(questionnaire_name, sorted( c['cat_name'] for c in questionnaire_metadata['categories'] ))
     assert(dims_ == dims)
     if if_multiround:
-        final_folder_path = os.path.join('..', f'results-{if_multiround}round', 'final', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}_repeat-times={repeat_times}')
+        final_folder_path = os.path.join('.', f'results-{if_multiround}round', 'final', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}_repeat-times={repeat_times}')
     else:
-        final_folder_path = os.path.join('..', 'results', 'final', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}_repeat-times={repeat_times}')
+        final_folder_path = os.path.join('.', 'results', 'final', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}_repeat-times={repeat_times}')
     if not os.path.exists(final_folder_path):
         os.makedirs(final_folder_path)
     
@@ -745,7 +745,7 @@ def personality_assessment(character, agent_type, agent_llm, questionnaire_name,
             query_style = eval_args[0]
             
             if repeat_times < 1: 
-                subsample_questionnaire_folder_path = os.path.join('..', 'data', 'subsample_questionnaire', f'ratio={repeat_times}')
+                subsample_questionnaire_folder_path = os.path.join('.', 'data', 'subsample_questionnaire', f'ratio={repeat_times}')
                 if not os.path.exists(subsample_questionnaire_folder_path):
                     os.makedirs(subsample_questionnaire_folder_path)
 
@@ -763,14 +763,11 @@ def personality_assessment(character, agent_type, agent_llm, questionnaire_name,
                         questionnaire = json.load(f)
             
             # conduct interview with character given the questionnaire
-            if agent_llm != 'cAI':
-                if if_multiround != 0:
-                    interview_folder_path = os.path.join('..', f'results-{if_multiround}round', 'interview', f'{questionnaire_name}-agent-type={agent_type}_agent-llm={agent_llm}_query-style={query_style}')
-                else:
-                    interview_folder_path = os.path.join('..', 'results', 'interview', f'{questionnaire_name}-agent-type={agent_type}_agent-llm={agent_llm}_query-style={query_style}')
+            if if_multiround != 0:
+                interview_folder_path = os.path.join('.', f'results-{if_multiround}round', 'interview', f'{questionnaire_name}-agent-type={agent_type}_agent-llm={agent_llm}_query-style={query_style}')
             else:
-                interview_folder_path = os.path.join('..', 'results', 'interview', f'{questionnaire_name}-agent-type=cAI_agent-llm=gpt-3.5-turbo_query-style={query_style}')
-      
+                interview_folder_path = os.path.join('.', 'results', 'interview', f'{questionnaire_name}-agent-type={agent_type}_agent-llm={agent_llm}_query-style={query_style}')
+            
             if not os.path.exists(interview_folder_path):
                 os.makedirs(interview_folder_path)
 
@@ -799,9 +796,10 @@ def personality_assessment(character, agent_type, agent_llm, questionnaire_name,
                     logger.info(f'Interview done before. load directly from {interview_save_path}')
                     with open(interview_save_path, 'r') as f:
                         questionnaire_results = json.load(f)
-                # continue
+                if not eval_mode:
+                    continue
                 # evaluate the character's personality
-                assessment_folder_path = os.path.join('..', 'results', 'assessment', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}')
+                assessment_folder_path = os.path.join('.', 'results', 'assessment', f'{questionnaire_name}_agent-type={agent_type}_agent-llm={agent_llm}_eval-method={eval_method}-{evaluator_llm}')
 
                 if not os.path.exists(assessment_folder_path):
                     os.makedirs(assessment_folder_path)

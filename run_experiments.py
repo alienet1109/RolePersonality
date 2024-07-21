@@ -10,7 +10,7 @@ import pdb
 from utils import torch_gc
 import argparse
 os.environ["OPENAI_API_KEY"] = config["openai_apikey"]
-
+questionnaires = config['questionnaires']
 eval_method_map = {
     'self_report': 'choose',
     'self_report_cot': 'choosecot',
@@ -23,53 +23,46 @@ eval_method_map = {
 parser = argparse.ArgumentParser()
 
 # 添加参数
-parser.add_argument('--questionnaire', type=str, default='BFI', choices=['BFI', '16Personalities', 'BSRI', 'DTDD', 'ECR-R', 'EIS', 'Empathy', 'EPQ-R', 'GSE', 'ICB', 'LMS', 'LOT-R', 'WLEIS', 'CABIN'])
+parser.add_argument('--agent_llm', default='gpt-3.5', help='Agent LLM')
+parser.add_argument('--eval_mode', default=False, choices=[True,False], help='Do Evaluation')
 parser.add_argument('--eval_method', default='expert_rating', choices=eval_method_map.keys(), help='Evaluation method')
 parser.add_argument('--eval_llm', default='gpt-3.5', choices=['gpt-4', 'gpt-3.5', 'gemini'], help='LLM for Evaluation')
-parser.add_argument('--repeat_times', type=int, default=2, help='Number of experiment repeat times')
-parser.add_argument('--agent_llm', default='gpt-3.5', choices=['gpt-3.5', 'gpt-4'], help='Agent LLM')
+parser.add_argument('--repeat_times', type=int, default=1, help='Number of experiment repeat times')
 
 
 # 解析参数
 args = parser.parse_args()
-
-questionnaire = args.questionnaire
+eval_mode = args.eval_mode
 eval_method = eval_method_map.get(args.eval_method, args.eval_method)
 eval_llm = args.eval_llm
 repeat_times = args.repeat_times
 agent_llm = args.agent_llm
 
 characters = character_info.keys()
-questionnaires = ['BFI', '16Personalities', 'BSRI', 'DTDD', 'ECR-R', 'EIS', 'Empathy', 'EPQ-R', 'GSE', 'ICB', 'LMS', 'LOT-R', 'WLEIS', 'CABIN']
-
-
 agent_types = ['RoleLLM', 'ChatHaruhi']
-
-agent_llm = "gpt-3.5-turbo"
-
-eval_llm = 'gpt-3.5'
-
-#################################
-logger.info('Start testing eval methods')
         
 # there is a bug in transformer when interleave with luotuo embeddings and bge embeddings, which may sometimes cause failure. To minimize the change of embeddings, we run haruhi and rolellm characters separately.
 
 results = {}
-for questionnaire in questionnaires:
-    for character in characters:
+for character in characters:
+    logger.info(f'Start Collecting data on {character}...')
+    
+    for questionnaire in questionnaires:
+        logger.info(f'Processing on {questionnaire}...')
         for agent_type in agent_types:
+            
         
         #for agent_type in [ a for a in character_info[character]['agent'] if a in agent_types]:
             if not agent_type in character_info[character]['agent']: continue
             if character == 'Sheldon-en' and agent_type == 'RoleLLM': continue 
-
             result = personality_assessment(
                 character, agent_type, agent_llm, 
-                questionnaire, eval_method, eval_llm, repeat_times=repeat_times,if_multiround=0)
+                questionnaire, eval_method, eval_llm, repeat_times=repeat_times,if_multiround=0,eval_mode=eval_mode)
             
             
             results[(character, agent_type)] = result 
-    # continue
+    if not eval_mode:
+        continue
 
     logger.info('Questionnaire: {}, Eval Method: {}, Repeat Times: {}, Agent LLM: {}, Eval LLM: {}'.format(questionnaire, eval_method, repeat_times, agent_llm, eval_llm))   
 

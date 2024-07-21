@@ -1,4 +1,6 @@
 {
     "openai_apikey": "your api key",
-    "gemini_apikey": ""
+    "questionnaires": ["BFI", "16Personalities", "BSRI", "DTDD", "ECR-R", "EIS", "Empathy", "EPQ-R", "GSE", "ICB", "LMS", "LOT-R", "WLEIS", "CABIN"],
+    "characters":["Hermione-en"],
+    "eval_characters":["Jeff Spicoli-en"]
 }
